@@ -34,8 +34,7 @@ def projects():
 def page(path):
     page = pages.get_or_404(path)
     return render_template('page.html', page=page, title=page.meta['title'])
-    #return render_template('about.html', 'contact.html', 'projects.html') 
-
+   
 @freezer.register_generator
 # This function generates URLs for each post in pages.
 def pagelist():
