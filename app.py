@@ -2,7 +2,6 @@ import sys
 from flask import Flask, render_template, url_for
 from flask_flatpages import FlatPages
 from flask_frozen import Freezer
-from datetime import datetime
 
 DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
@@ -17,13 +16,24 @@ freezer = Freezer(app)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+   return render_template('index.html', pages=pages, title="Home")
+
+@app.route("/about")
+def about():
+    return render_template("about.html", title="About")
+
+@app.route("/contact")
+def contact():
+    return render_template("contact.html", title="Contact")
+
+@app.route("/projects")
+def projects():
+    return render_template("projects.html", title="Projects")
 
 @app.route('/<path:path>.html')
 def page(path):
-    print("Page function running")
     page = pages.get_or_404(path)
-    return render_template('page.html', page=page)
+    return render_template('page.html', page=page, title=page.meta['title'])
 
 @freezer.register_generator
 # This function generates URLs for each post in pages.

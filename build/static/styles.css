@@ -1,0 +1,200 @@
+:root {
+    --text-color:#774c28;
+    --body-bg:#f7f0ed;
+    --highlight:#774c2830;
+    --title-color:#613b1b;
+    --button-text:#fff;
+    --button-bg:#774c2810;
+    --primary:#613b1b;
+}
+
+body {
+    font-family: "open-sans", sans-serif;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    background-color: var(--body-bg);
+    transition: 0.5s ease-out;
+}
+
+header {
+    padding: 20px 0;
+    margin: 20px auto;
+}
+
+#navigation a {
+    color: var(--text-color);
+    font-size: 15px;
+    transition: 0.5s ease-in-out;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.active, #navigation a:hover {
+    background-color: var(--highlight);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 720px;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.site-title {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    float: left;
+    width: 80%;
+}
+
+.site-title a {
+    text-decoration: none;
+    color: var(--title-color);
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.site-title a:hover {
+    background-color: var(--highlight);
+    border-radius: 10px;
+}
+
+#navigation {
+    padding: 0;
+    list-style-type: none;
+}
+
+
+#navigation li {
+    display: inline;
+}
+
+.profile-photo {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   float: right;
+}
+
+.title {
+    color: var(--title-color);
+    font-weight: 900;
+    font-family: 'georgia', times;
+}
+
+h1 {
+    font-size: 1.9em;
+}
+
+#result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+/* Dark mode */
+
+.dark-mode {
+    --body-bg: #15202b;
+    --text-color:#fff;
+    --title-color:#fff;
+    --highlight:#28a79d33;
+    --button-bg:#28a79d33;
+    --primary: #28a79d33;
+    transition: 0.5s ease-in;
+}
+
+.dark-mode .show-more:hover {
+    background-color: #28a79d13
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.show-more {
+    color: inherit;
+    background-color: var(--button-bg);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    transition: 0.5s;
+    outline: none;
+    font-size: 15px;
+}
+
+.show-more:hover {
+    background-color: var(--highlight);
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+button:focus {
+    outline: none;
+}
+
+#email {
+    width: 50%;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid var(--title-color);
+    color: inherit;
+    padding: .5rem;
+    background-color: transparent;
+    font-size: 1.1rem;
+}
+
+#email::placeholder {
+    color: inherit;
+}
+
+.button {
+    width: 30%;
+    background-color: var(--primary);
+    border-radius: 0px 5px 5px 0px;
+    color: var(--button-text);
+    border: 1px solid var(--title-color);
+    padding: .5rem;
+    margin-left: -5px;
+    font-size: 1.1rem;
+}
+
+footer {
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.link, .link:hover {
+    color: inherit;
+    border-bottom:2px dotted;
+    padding-bottom: 2px;
+    transition: 0.5s;
+}
+
+.link:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+
+::selection {
+    background-color: var(--highlight);
+}
+
+.animate__fadeIn {
+    --animate-duration: 1s;
+}

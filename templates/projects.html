@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+        <div class="container animate__animated animate__fadeIn">
+            <h1 class="title">Projects</h1>
+            <br>
+            <h2 class="title">Upframe</h2>
+            <p><a class="link" href="https://www.linkedin.com/company/upframe/" target="_blank">Upframe</a> is the mentor network for accelerators. We make finding people and booking video calls right away easy.</p>
+            <p>Teams are building companies remotely. Running mentoring sessions and building your community gets more challenging. You spend days managing information and going back and forth between calendars, spreadsheets or timezone converters. Every solution you come across feels high maintenance. Your community starts to get less engaged.</p>
+            <p>With Upframe, people start connecting and learning from mentors on their own. Teams feel supported, get advice more frequently and start growing. Everything feels under control and your attention is free to invest in higher-level activities.</p>
+            <br>
+            <img alt="screenshot from upframe" src="{{url_for('static', filename='upf.png')}}" style="width: 100%">
+
+            <br><br>
+            <h2 class="title">351. Portuguese Startup Community</h2>
+            <p>We’re a group of people who came together with the goal of creating a startup scene that’s more connected, inclusive and wise.</p>
+            <p>In <a class="link" href="http://351.community/" target="_blank">our Slack Community</a> you can find a curated feed of events, news, job listings and startup content updated every day by people who work on them.</p>
+            <p>If you want to get to know or keep up to date with the ever growing startup scene or get settled in Portugal, 351 might be a good first door for you! Our arms are open and every member is reachable without a middle person.</p>
+            <br>
+            <h2 class="title">Startup Jobs Portugal</h2>
+            <p>Until today you’d have to go through multiple sources to hear about interesting job positions in startups or scaleups in Portugal. New founders would also have a hard time spreading the word about open positions. This whole Covid-19 situation inspired me to work alongside incubators and accelerators across Portugal to launch <a class="link" href="http://startupjobsportugal.com/" target="_blank">the central place for startup jobs in Portugal</a>.</p>
+            <p>Anyone is welcome to advertise their open positions in the platform. The platform is going to be launched officially in a couple of days in collaboration with other startup organisations across Portugal. The job openings will be shared on a periodic basis on their channels. This way, you can focus on what matters: Building and creating value for society.</p>
+            <br><hr>
+        </div>
+{% endblock %}

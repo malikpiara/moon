@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "/static/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <title>{{ title + " | "}} Malik Piara</title>
+    <title>About |  Malik Piara</title>
 </head>
 <body>
 
@@ -29,8 +29,21 @@
     </div>
 </header>
 
-{% block body %}
-{% endblock %}
+
+
+        <div class="container animate__animated animate__fadeIn">
+            <h1 class="title">About me</h1>
+            <p>Talent is distributed globally but opportunities aren't. I want to change that.</p>
+            <p>My name is Malik and I dream and fight for a world where anyone can have the freedom to decide who they want to be and what they want to pursue.</p>
+            <p>Originally from Lisbon. I'm currently building <a class="link" href="https://www.linkedin.com/company/upframe/" target="_blank">Upframe</a>, the mentor network for accelerators. In addition, I'm studying Product Management at <a class="link" href="https://code.berlin/" target="blank">CODE University</a> in Berlin and taking CS50 from Harvard online.</p>
+            <br>
+            <h2 class="title">My Values</h2>
+            <p>I care about making others feel like they belong.</p>
+            <p>I believe curation is the key to better products and companies.</p>
+            <br><hr>
+        </div>
+
+
 
 <footer>Built and designed by Malik Piara.</footer>
 
