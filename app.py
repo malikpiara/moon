@@ -18,15 +18,15 @@ freezer = Freezer(app)
 def index():
    return render_template('index.html', pages=pages, title="Home")
 
-@app.route("/about")
+@app.route("/about.html")
 def about():
     return render_template("about.html", title="About")
 
-@app.route("/contact")
+@app.route("/contact.html")
 def contact():
     return render_template("contact.html", title="Contact")
 
-@app.route("/projects")
+@app.route("/projects.html")
 def projects():
     return render_template("projects.html", title="Projects")
 
@@ -34,6 +34,7 @@ def projects():
 def page(path):
     page = pages.get_or_404(path)
     return render_template('page.html', page=page, title=page.meta['title'])
+    #return render_template('about.html', 'contact.html', 'projects.html') 
 
 @freezer.register_generator
 # This function generates URLs for each post in pages.
