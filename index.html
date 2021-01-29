@@ -1,17 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title> My Flask Blog</title>
+    <meta charset="UTF-8">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel= "stylesheet" type= "text/css" href= "/static/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Home |  Malik Piara</title>
 </head>
 <body>
+
   <header>
-    <h1> My Common Header</h1>
-  </header>
+    <div class="container">
+        <img class="profile-photo" alt="profile picture" src="https://en.gravatar.com/userimage/197961269/b479e947d5be9a9106fcc9855bc6c5b6?size=200">
+        <h1 class="site-title">
+            <a href="/" title="Malik Piara">Malik Piara️ ⚡️</a>
+        </h1>
+        <ul id="navigation">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About me</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/contact">Get in touch</a></li>
+            <li><a id="theme_toggler" href="#">Dark mode</a></li>
+        </ul>
+    </div>
+</header>
 
-<p> Welcome to my blog! Enjoy.</p>
 
 
+<div class="container animate__animated animate__fadeIn">
+
+
+
+<a href="first.html"><h1 class="title">Copy the work of others</h1></a>
+<p>Many people celebrate the work of Pablo Picasso, but often overlook the process that contributed to make him the genius we all know and appreciate today.</p>
+<p>At the age of 16, Picasso was living in Madrid. He spent long periods of time at the Prado museum, admiring and copying the works of great artists that came before him, like Goya and Velásquez. His story is akin to the ones told about Beethoven and Benjamin Franklin. The latter transcribed passages of his favourite writers and often tried to emulate their style, in order to improve his own.</p>
+<p>The process of copying and reflecting on the work and process of people with more experience than you, enables you to get acquainted with patterns you wouldn't have. And at a faster pace.</p>
+<p>Whenever you want to learn a new skill or improve on existing ones, realise that there is, or has been someone out there with more experience than you. With whom you can learn from. There is no shame in copying the work of others when your goal is to learn.</p>
+<p>a. Do not try to be original. Originality comes from experience and materializes naturally when you have enough building blocks.</p>
+<p>My past experience shows me that jumping and attempting to create something of your own before having the tools to do so, often equates with a lack of self-knowledge. In order to chop down a tree, you must first sharpen the axe.</p>
+<p>With enough experience and vocabulary, you can go on to create your own work and improve on the work of others.</p>
+<p>In a nutshell:</p>
+<ol>
+<li>Find a piece of work you want to emulate.</li>
+<li>Try to copy the piece in the best fashion you deem possible.</li>
+<li>While doing so, close your eyes and try to visualize each step of the process.</li>
+</ol>
+<br><hr><br>
+
+
+
+<a href="first copy.html"><h1 class="title">A different Blog</h1></a>
+<p>Many people celebrate the work of Pablo Picasso, but often overlook the process that contributed to make him the genius we all know and appreciate today.</p>
+<p>At the age of 16, Picasso was living in Madrid. He spent long periods of time at the Prado museum, admiring and copying the works of great artists that came before him, like Goya and Velásquez. His story is akin to the ones told about Beethoven and Benjamin Franklin. The latter transcribed passages of his favourite writers and often tried to emulate their style, in order to improve his own.</p>
+<p>The process of copying and reflecting on the work and process of people with more experience than you, enables you to get acquainted with patterns you wouldn't have. And at a faster pace.</p>
+<p>Whenever you want to learn a new skill or improve on existing ones, realise that there is, or has been someone out there with more experience than you. With whom you can learn from. There is no shame in copying the work of others when your goal is to learn.</p>
+<p>a. Do not try to be original. Originality comes from experience and materializes naturally when you have enough building blocks.</p>
+<p>My past experience shows me that jumping and attempting to create something of your own before having the tools to do so, often equates with a lack of self-knowledge. In order to chop down a tree, you must first sharpen the axe.</p>
+<p>With enough experience and vocabulary, you can go on to create your own work and improve on the work of others.</p>
+<p>In a nutshell:</p>
+<ol>
+<li>Find a piece of work you want to emulate.</li>
+<li>Try to copy the piece in the best fashion you deem possible.</li>
+<li>While doing so, close your eyes and try to visualize each step of the process.</li>
+</ol>
+<br><hr><br>
+
+
+
+<a href="second.html"><h1 class="title">My Second Blog</h1></a>
+<p>Here's some content for the blog. Written in Markdown.</p>
+<ul>
+<li>One</li>
+<li>Two</li>
+<li>Three</li>
+</ul>
+<br><hr><br>
+
+
+</div>
+
+
+<footer>Built and designed by Malik Piara.</footer>
+
+<script>
+
+jQuery(function($) {
+var path = window.location.href;
+// because the 'href' property of the DOM element is the absolute path
+$('ul a').each(function() {
+if (this.href === path) {
+$(this).addClass('active');
+}
+});
+});
+
+// dark theme toggle
+
+let theme_toggler = document.querySelector('#theme_toggler');
+
+theme_toggler.addEventListener('click', function() {
+document.body.classList.toggle("dark-mode");
+if(document.body.classList.contains('dark-mode')) {
+    localStorage.setItem('website_theme','dark-mode');
+} else {
+    localStorage.setItem('website_theme','default');
+}
+});
+
+function retrieve_theme() {
+var theme = localStorage.getItem('website_theme');
+if(theme != null) {
+document.body.classList.remove('default', 'dark-mode');
+document.body.classList.add(theme);
+}
+}
+retrieve_theme();
+
+window.addEventListener("storage",function() {
+retrieve_theme();
+},false);
+
+</script>
 
 </body>
 </html>
