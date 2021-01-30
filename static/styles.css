@@ -121,6 +121,10 @@ a:hover {
     font-family: 'georgia', times;
 }
 
+.title a:hover {
+    text-decoration: underline;
+}
+
 h1 {
     font-size: 1.9em;
 }
@@ -226,3 +230,18 @@ footer {
 .animate__fadeIn {
     --animate-duration: 1s;
 }
+
+/* Media queries for responsiveness
+-------------------------------------------------------------- */
+@media (max-width: 767px) {
+    header {
+      margin-bottom: -20px;
+    }
+    header .profile-photo {
+      float: none;
+    }
+    header .site-title {
+      width: 100%;
+    }
+  }
+  
