@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel= "stylesheet" type= "text/css" href= "/static/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Source+Serif+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Follow through |  Malik Piara</title>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+        <img class="profile-photo" alt="profile picture" src="https://en.gravatar.com/userimage/197961269/b479e947d5be9a9106fcc9855bc6c5b6?size=200">
+        <h1 class="site-title">
+            <a href="/" title="Malik Piara">🌙&nbsp;Malik Piara️</a>
+        </h1>
+        <ul id="navigation">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About me</a></li>
+            <li><a href="/projects.html">Projects</a></li>
+            <li><a href="/contact.html">Get in touch</a></li>
+            <li><a id="theme_toggler" href="#">Dark mode</a></li>
+        </ul>
+    </div>
+</header>
+
+
+
+<div class="container animate__animated animate__fadeIn">
+<h1 class="title"> Follow through </h1>
+<small>Published on 05 January, 2021</small>
+<br><br>
+<!-- safe is making Flask ignore the html tags -->
+<p>Integrity is doing what we say we will do. Even when it hurts us. Especially when it hurts us. This is the hardest principle to follow in my book as it requires a sharp and tuned degree of consistency and self-awareness. This takes time to grow.</p>
+<p>a. Do not make commitments you know you can’t uphold. When we fail to deliver on a promise, we cause other people to have a worse impression of us. Because we use our past actions as information about who we are, failing to deliver on what we set out to do, often damages our own sense of worth. This is also true for when we set personal goals or intentions we fail to work towards. Every tiny action matters.</p>
+<p>b. Avoid relying on people who didn’t follow through in the past. We’re not always able to pick who we work with. Having that in mind, we can choose the people we rely on. These are the people we make an active decision to build personal and professional projects with. Because the stakes are higher, we should be especially cautious and not let our hope and dreams blind us. By picking a partner we know to lack integrity, we are corrupting our own sense of virtue and there will always be a price to pay later on.</p>
+<p>Better to disappoint early on and to be less ambitious about what we can do than to break our reputation and self-esteem. We deserve to go to bed every night knowing we can trust ourselves. Knowing we can be relied on.</p>
+<br>
+<div id="sub">
+    <h5>🌙 Kick off each morning with a daily coffee and the daily brief</h5>
+    <form class="newsletter" name="subscriptions" data-netlify="true">
+        <input type="email" id="email" name="email" placeholder="Type your email" autocomplete="off">
+        <button type="submit" class="button">Join newsletter</button>
+    </form>
+    <small>By providing your email you agree with my privacy policy. No spam. Ever.</small>
+</div>
+<br>
+</div>
+
+
+<footer>Built and designed by Malik Piara.</footer>
+
+<script>
+
+jQuery(function($) {
+var path = window.location.href;
+// because the 'href' property of the DOM element is the absolute path
+$('ul a').each(function() {
+if (this.href === path) {
+$(this).addClass('active');
+}
+});
+});
+
+// dark theme toggle
+
+let theme_toggler = document.querySelector('#theme_toggler');
+
+theme_toggler.addEventListener('click', function() {
+document.body.classList.toggle("dark-mode");
+if(document.body.classList.contains('dark-mode')) {
+    localStorage.setItem('website_theme','dark-mode');
+} else {
+    localStorage.setItem('website_theme','default');
+}
+});
+
+function retrieve_theme() {
+var theme = localStorage.getItem('website_theme');
+if(theme != null) {
+document.body.classList.remove('default', 'dark-mode');
+document.body.classList.add(theme);
+}
+}
+retrieve_theme();
+
+window.addEventListener("storage",function() {
+retrieve_theme();
+},false);
+
+</script>
+
+</body>
+</html>
