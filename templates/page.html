@@ -7,6 +7,15 @@
 <small>Published on {{ page.date.strftime('%A, %d %B, %Y') }}</small>
 <!-- safe is making Flask ignore the html tags -->
 {{ page.html|safe }}
-SUBSCRIBE
+<br>
+<div id="sub">
+    <h5>🌙 Kick off each morning with a daily coffee and the daily brief</h5>
+    <form class="newsletter" name="subscriptions" data-netlify="true">
+        <input type="email" id="email" name="email" placeholder="Type your email" autocomplete="off">
+        <button type="submit" class="button">Join newsletter</button>
+    </form>
+    <small>By providing your email you agree with my privacy policy. No spam. Ever.</small>
+</div>
+<br>
 </div>
 {% endblock %}

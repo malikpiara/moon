@@ -1,16 +1,38 @@
 :root {
     --text-color:#774c28;
     --body-bg:#f7f0ed;
-    --highlight:#774c2830;
+    --highlight:#774c281f;
     --title-color:#613b1b;
     --button-text:#fff;
     --button-bg:#774c2810;
     --primary:#613b1b;
 }
 
+#sub {
+    background-color: #774c2814;
+    padding: 30px;
+    border-radius: 10px;
+    border:0.1px solid #774c2830;
+}
+
+#sub > * {
+    margin-bottom: 15px;
+}
+
+.newsletter > * {
+    height: 45px;
+}
+.newsletter input {
+    border:0.1px solid #774c2830;
+}
+
+h5 {
+    font-weight: 600;
+}
+
 body {
     font-family: "open-sans", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     color: var(--text-color);
     background-color: var(--body-bg);
     transition: 0.5s ease-out;
@@ -19,6 +41,17 @@ body {
 header {
     padding: 20px 0;
     margin: 20px auto;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+    opacity: 0.7;
+    transition-duration: 0.5s;
+    text-decoration: none;
 }
 
 #navigation a {
@@ -149,9 +182,9 @@ button:focus {
 }
 
 #email {
-    width: 50%;
-    border-radius: 5px 0px 0px 5px;
-    border: 1px solid var(--title-color);
+    width: 65%;
+    border-radius: 5px;
+    border: 1px solid #774c2830;;
     color: inherit;
     padding: .5rem;
     background-color: transparent;
@@ -165,11 +198,11 @@ button:focus {
 .button {
     width: 30%;
     background-color: var(--primary);
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 5px;
     color: var(--button-text);
     border: 1px solid var(--title-color);
     padding: .5rem;
-    margin-left: -5px;
+    margin-left: 5px;
     font-size: 1.1rem;
 }
 
@@ -184,11 +217,6 @@ footer {
     border-bottom:2px dotted;
     padding-bottom: 2px;
     transition: 0.5s;
-}
-
-.link:hover {
-    opacity: 1;
-    text-decoration: none;
 }
 
 ::selection {
