@@ -1,5 +1,5 @@
 :root {
-    --text-color:#774c28;
+    --text-color:#774c28e4;
     --body-bg:#F8E6DF;
     --highlight:#774c281f;
     --title-color:#613b1b;
@@ -31,8 +31,10 @@ h5 {
 }
 
 body {
-    font-family: "open-sans", sans-serif;
-    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+    font-size: 1.2rem;
     color: var(--text-color);
     background-color: var(--body-bg);
     transition: 0.5s ease-out;
@@ -77,11 +79,12 @@ a:hover {
 }
 
 .site-title {
+    letter-spacing:0.8px;
     margin: 0;
     margin-top: 10px;
     margin-bottom: 18px;
     font-size: 1.5rem;
-    font-weight: 900;
+    font-weight: 800;
     float: left;
     width: 80%;
 }
@@ -101,11 +104,14 @@ a:hover {
 #navigation {
     padding: 0;
     list-style-type: none;
+    font-weight: 500;
+    font-family: "Montserrat";
 }
 
 
 #navigation li {
     display: inline;
+    margin-right: -5px;
 }
 
 .profile-photo {
@@ -117,16 +123,12 @@ a:hover {
 
 .title {
     color: var(--title-color);
-    font-weight: 900;
-    font-family: 'georgia', times;
+    font-weight: 700;
+    font-family: 'Georgia', times;
 }
 
 .title a:hover {
     text-decoration: underline;
-}
-
-h1 {
-    font-size: 1.9em;
 }
 
 #result {
