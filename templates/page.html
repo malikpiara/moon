@@ -4,7 +4,8 @@
 
 <div class="container animate__animated animate__fadeIn">
 <h1 class="title"> {{ page.title }} </h1>
-<small>Published on {{ page.date.strftime('%A, %d %B, %Y') }}</small>
+<small>Published on {{ page.date.strftime('%d %B, %Y') }}</small>
+<br><br>
 <!-- safe is making Flask ignore the html tags -->
 {{ page.html|safe }}
 <br>

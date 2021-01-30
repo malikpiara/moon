@@ -34,7 +34,7 @@ body {
     font-family: "Montserrat", sans-serif;
     letter-spacing: 0.3px;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: var(--text-color);
     background-color: var(--body-bg);
     transition: 0.5s ease-out;
