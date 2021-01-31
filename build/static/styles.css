@@ -33,6 +33,7 @@ h5 {
 body {
     font-family: "Montserrat", sans-serif;
     letter-spacing: 0.3px;
+    line-height: 1.6;
     font-weight: 500;
     font-size: 1.1rem;
     color: var(--text-color);
