@@ -6,6 +6,8 @@
     --button-text:#fff;
     --button-bg:#774c2810;
     --primary:#613b1b;
+    --highlight-dark: #28a79d33;
+    --text-dark: #fff;
 }
 
 #sub {
@@ -252,4 +254,26 @@ footer {
       width: 100%;
     }
   }
+
+/* Media queries for dark mode
+-------------------------------------------------------------- */
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #15202b;
+      color: var(--text-dark);
+    }
+
+    .site-title a, #navigation a, .title {
+        color: var(--text-dark);
+    }
+
+    #navigation a:hover, .active, ::selection {
+        background-color: var(--highlight-dark);
+    }
+
+    .button {
+        background-color: var(--highlight-dark);
+        border: 1px solid var(--highlight-dark);
+    }
   
