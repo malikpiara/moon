@@ -34,10 +34,10 @@ h5 {
 
 body {
     font-family: 'Source Serif Pro', Georgia, "Montserrat", sans-serif;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.1px;
     line-height: 1.55;
     font-weight: 500;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     color: var(--text-color);
     background-color: var(--body-bg);
     transition: 0.5s ease-out;
@@ -252,6 +252,12 @@ footer {
     }
     header .site-title {
       width: 100%;
+    }
+    body {
+        font-size: 1.2rem;
+    }
+    #navigation a {
+        padding: 8px;
     }
   }
 
