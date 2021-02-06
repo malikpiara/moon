@@ -1,5 +1,5 @@
 :root {
-    --text-color:#774c28e4;
+    --text-color:#52341bef;
     --body-bg:#F8E6DF;
     --highlight:#774c281f;
     --title-color:#613b1b;
@@ -31,14 +31,15 @@ h5 {
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Source Serif Pro', Georgia, "Montserrat", sans-serif;
     letter-spacing: 0.3px;
-    line-height: 1.6;
+    line-height: 1.65;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     color: var(--text-color);
     background-color: var(--body-bg);
     transition: 0.5s ease-out;
+    text-rendering: optimizeLegibility;
 }
 
 header {
@@ -91,6 +92,7 @@ a:hover {
 }
 
 .site-title a {
+    font-family: "Montserrat", sans-serif;
     text-decoration: none;
     color: var(--title-color);
     padding: 10px;
@@ -217,6 +219,7 @@ footer {
     padding-bottom: 40px;
     text-align: center;
     font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .link, .link:hover {
