@@ -2,7 +2,7 @@ title: Follow through
 date: 2021-01-05
 category: general
 
-Integrity is doing what we say we will do. Even when it hurts us. Especially when it hurts us. This is the hardest principle to follow in my book as it requires a sharp and tuned degree of consistency and self-awareness. This takes time to grow.
+Integrity is doing what we say we will do. Even when it hurts us. Especially when it hurts us. This requires a sharp and tuned degree of consistency and self-awareness that takes time to grow.
 
 a. Do not make commitments you know you can’t uphold. When we fail to deliver on a promise, we cause other people to have a worse impression of us. Because we use our past actions as information about who we are, failing to deliver on what we set out to do, often damages our own sense of worth. This is also true for when we set personal goals or intentions we fail to work towards. Every tiny action matters.
 
