@@ -8,6 +8,7 @@
     --primary:#613b1b;
     --highlight-dark: #28a79d33;
     --text-dark: #fff;
+    --sub-dark: rgb(25 39 52);
 }
 
 #sub {
@@ -199,7 +200,7 @@ button:focus {
     border-radius: 5px;
     border: 1px solid #774c2830;;
     color: inherit;
-    padding: .5rem;
+    padding: .8rem;
     background-color: transparent;
     font-size: 1.1rem;
 }
@@ -280,6 +281,18 @@ footer {
 
     .button {
         background-color: var(--highlight-dark);
-        border: 1px solid var(--highlight-dark);
+        border: none;
     }
-  
+
+    #sub {
+        background-color: var(--sub-dark);
+        padding: 30px;
+        border-radius: 10px;
+        border:none;
+    }
+
+    #email {
+        background-color: rgb(37, 51, 65);
+        border: none;
+    }
+}
