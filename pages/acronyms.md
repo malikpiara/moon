@@ -5,4 +5,4 @@ The goal of communication is to convey information. To create an understanding. 
 
 As we gain familiarity within the domain in which we operate, we start adapting acronyms, initialisms and abbreviations used by people in our circle. But using them, ends up excluding everyone else who’s not in on the convention. It damages understanding. It creates obstacles.
 
-a. Whenever you’re working with other people, make mutual understanding a priority above all else. Avoid using acronyms, initialisms, abbreviations.
+**a.** Whenever you’re working with other people, make mutual understanding a priority above all else. Avoid using acronyms, initialisms, abbreviations.
