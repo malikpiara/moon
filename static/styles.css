@@ -47,9 +47,15 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* Catches all images, videos and embeds and makes them all mobile responsive */
+img, embed, object, video {
+    position: relative;
+    max-width: 100%;
+}
+
 header {
     padding: 20px 0;
-    margin: 20px auto;
+    margin: 15px auto;
 }
 
 a {
@@ -118,7 +124,7 @@ a:hover {
 
 
 #navigation li {
-    display: inline;
+    display: inline-block;
     margin-right: -5px;
 }
 
@@ -210,7 +216,7 @@ button:focus {
 }
 
 .button {
-    width: 30%;
+    width: 200px;
     background-color: var(--primary);
     border-radius: 5px;
     color: var(--button-text);
@@ -247,6 +253,7 @@ footer {
 @media (max-width: 767px) {
     header {
       margin-bottom: -20px;
+      padding: 10px 0;
     }
     header .profile-photo {
       float: none;
@@ -256,9 +263,6 @@ footer {
     }
     body {
         font-size: 1.2rem;
-    }
-    #navigation a {
-        padding: 8px;
     }
   }
 
