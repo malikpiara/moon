@@ -16,23 +16,18 @@
   border-radius: 10px;
   border: 0.1px solid #774c2830;
 }
-
 #sub > * {
   margin-bottom: 15px;
 }
-
 .newsletter > * {
   height: 45px;
 }
-
 .newsletter input {
   border: 0.1px solid #774c2830;
 }
-
 h5 {
   font-weight: 600;
 }
-
 body {
   font-family: "Source Serif Pro", Georgia, Montserrat, sans-serif;
   letter-spacing: 0.1px;
@@ -46,7 +41,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 embed,
 img,
 object,
@@ -54,23 +48,19 @@ video {
   position: relative;
   max-width: 100%;
 }
-
 header {
   padding: 20px 0;
   margin: 15px auto;
 }
-
 a {
   color: inherit;
 }
-
 a:hover {
   color: inherit;
   opacity: 0.7;
   transition-duration: 0.5s;
   text-decoration: none;
 }
-
 #navigation a {
   color: var(--text-color);
   font-size: 15px;
@@ -78,21 +68,18 @@ a:hover {
   padding: 10px;
   text-decoration: none;
 }
-
 #navigation a:hover,
 .active {
   background-color: var(--highlight);
   border-radius: 10px;
   text-decoration: none;
 }
-
 .container {
   max-width: 720px;
   padding: 20px;
   margin: 0 auto;
   position: relative;
 }
-
 .site-title {
   letter-spacing: 0.8px;
   margin: 0;
@@ -103,7 +90,6 @@ a:hover {
   float: left;
   width: 80%;
 }
-
 .site-title a {
   font-family: Montserrat, sans-serif;
   text-decoration: none;
@@ -111,52 +97,43 @@ a:hover {
   padding: 10px;
   transition: 0.5s ease-in-out;
 }
-
 .site-title a:hover {
   background-color: var(--highlight);
   border-radius: 10px;
 }
-
 #navigation {
   padding: 0;
   list-style-type: none;
   font-weight: 500;
   font-family: Montserrat;
 }
-
 #navigation li {
   display: inline-block;
   margin-right: -5px;
 }
-
 .profile-photo {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   float: right;
 }
-
 .title {
   color: var(--title-color);
   font-weight: 700;
   font-family: Georgia, times;
 }
-
 .title a:hover {
   text-decoration: underline;
 }
-
 #result {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
 }
-
 h2 {
   font-size: 1.5rem;
 }
-
 .dark-mode {
   --body-bg: #15202b;
   --text-color: #fff;
@@ -166,11 +143,9 @@ h2 {
   --primary: #28a79d33;
   transition: 0.5s ease-in;
 }
-
 .dark-mode .show-more:hover {
   background-color: #28a79d13;
 }
-
 .show-more {
   color: inherit;
   background-color: var(--button-bg);
@@ -183,21 +158,17 @@ h2 {
   outline: 0;
   font-size: 15px;
 }
-
 .show-more:hover {
   background-color: var(--highlight);
 }
-
 .content {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.5s ease-out;
 }
-
 button:focus {
   outline: 0;
 }
-
 #email {
   width: 65%;
   border-radius: 5px;
@@ -207,11 +178,9 @@ button:focus {
   background-color: transparent;
   font-size: 1.1rem;
 }
-
 #email::placeholder {
   color: inherit;
 }
-
 .button {
   width: 200px;
   background-color: var(--primary);
@@ -222,14 +191,12 @@ button:focus {
   margin-left: 5px;
   font-size: 1.1rem;
 }
-
 footer {
   padding-bottom: 40px;
   text-align: center;
   font-size: 13px;
   font-family: Montserrat, sans-serif;
 }
-
 .link,
 .link:hover {
   color: inherit;
@@ -237,64 +204,52 @@ footer {
   padding-bottom: 2px;
   transition: 0.5s;
 }
-
 ::selection {
   background-color: var(--highlight);
 }
-
 .animate__fadeIn {
   --animate-duration: 1s;
 }
-
 @media (max-width: 600px) {
   header {
     margin-bottom: -20px;
     padding: 10px 0;
   }
-
   header .profile-photo {
     float: none;
   }
-
   header .site-title {
     width: 100%;
   }
-
   body {
     font-size: 1.2rem;
   }
 }
-
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #15202b;
     color: var(--text-dark);
   }
-
   #navigation a,
   .site-title a,
   .title {
     color: var(--text-dark);
   }
-
   #navigation a:hover,
   .active,
   ::selection {
     background-color: var(--highlight-dark);
   }
-
   .button {
     background-color: var(--highlight-dark);
     border: none;
   }
-
   #sub {
     background-color: var(--sub-dark);
     padding: 30px;
     border-radius: 10px;
     border: none;
   }
-
   #email {
     background-color: #253341;
     border: none;
