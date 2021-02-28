@@ -16,6 +16,7 @@ freezer = Freezer(app)
 
 
 @app.route('/')
+# TODO: Order articles in pages by their date
 def index():
     return render_template('index.html', pages=pages, title="Home")
 
