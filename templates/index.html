@@ -2,16 +2,16 @@
 
 {% block body %}
 
-<div class="container animate__animated animate__fadeIn">
+    <div class="container animate__animated animate__fadeIn">
 
-{% for page in pages %}
+        {% for page in pages %}
 
-<h1 class="title">
-    <a href="{{ page.path }}.html">{{ page.title }}</a>
-</h1>
-{{ page }}
-<br><hr><br>
-
-{% endfor %}
-</div>
+            <h1 class="title">
+                <a href="{{ page.path }}.html">{{ page.title }}</a>
+            </h1>
+            {{ page }}
+            <br><hr><br>
+        
+        {% endfor %}
+    </div>
 {% endblock %}

@@ -250,7 +250,7 @@ footer {
 
 /* Media queries for responsiveness
 -------------------------------------------------------------- */
-@media (max-width: 767px) {
+@media (max-width: 600px) {
     header {
       margin-bottom: -20px;
       padding: 10px 0;
