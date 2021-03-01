@@ -3,12 +3,12 @@
   --body-bg: #f9e3de;
   --highlight: #774c281f;
   --title-color: #613b1b;
-  --button-text: #fff;
+  --button-text: #ffffff;
   --button-bg: #774c2810;
-  --primary: #613b1b;
+  --primary: #633b1b;
   --highlight-dark: #28a79d33;
-  --text-dark: #fff;
-  --sub-dark: rgb(25 39 52);
+  --text-dark: #ffffff;
+  --sub-dark: #192734;
 }
 #sub {
   background-color: #774c2814;
