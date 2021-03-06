@@ -19,11 +19,13 @@ freezer = Freezer(app)
 # Used a lambda function. Still don't know they work very well
 # but followed the Flask flatpages documentation.
 def index():
-    # Articles are pages with a publication date
-    articles = (p for p in pages if 'date' in p.meta)
+    # Articles are pages with a publication date.
+    # I'm using a tuple instead of a list because they are faster
+    # and safer because of their immutability.
+    articles = (page for page in pages if 'date' in page.meta)
     # Show the 10 most recent articles.
-    # reverse=True makes most recent first possible
-    latest = sorted(articles, reverse=True, key=lambda p: p.meta['date'])
+    # To order articles by most recent we use reverse=True.
+    latest = sorted(articles, reverse=True, key=lambda page: page.meta['date'])
     return render_template('index.html', pages=latest[:10], title="Home")
 
 
