@@ -16,9 +16,15 @@ freezer = Freezer(app)
 
 
 @app.route('/')
-# TODO: Order articles in pages by their date
+# Used a lambda function. Still don't know they work very well
+# but followed the Flask flatpages documentation.
 def index():
-    return render_template('index.html', pages=pages, title="Home")
+    # Articles are pages with a publication date
+    articles = (p for p in pages if 'date' in p.meta)
+    # Show the 10 most recent articles.
+    # reverse=True makes most recent first possible
+    latest = sorted(articles, reverse=True, key=lambda p: p.meta['date'])
+    return render_template('index.html', pages=latest[:10], title="Home")
 
 
 @app.route("/about.html")
