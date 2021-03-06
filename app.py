@@ -26,7 +26,7 @@ def index():
     # Show the 10 most recent articles.
     # To order articles by most recent we use reverse=True.
     latest = sorted(articles, reverse=True, key=lambda page: page.meta['date'])
-    return render_template('index.html', pages=latest[:10], title="Home")
+    return render_template('index.html', articles=latest[:10], title="Home")
 
 
 @app.route("/about.html")
