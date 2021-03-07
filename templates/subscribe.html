@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<div class="container animate__animated animate__fadeIn">
+    <h1 class="title">Join my newsletter</h1>
+    <br>
+    <h2 class="title">Newsletter</h2>
+    <p>Every now and then, I send my thoughts on emotional intelligence, personal growth and product development. No SPAM. Ever. </p>
+    <form class="newsletter" name="subscriptions" data-netlify="true">
+        <input type="email" id="email" name="email" placeholder="Type your email" autocomplete="off" required>
+        <button type="submit" class="button">Join newsletter</button>
+    </form>
+    
+    <br><hr>
+</div>
+
+{% endblock %}

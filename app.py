@@ -39,6 +39,11 @@ def contact():
     return render_template("contact.html", title="Contact")
 
 
+@app.route("/subscribe/")
+def subscribe():
+    return render_template("subscribe.html", title="Subscribe")
+
+
 @app.route("/projects/")
 def projects():
     return render_template("projects.html", title="Projects")
