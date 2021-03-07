@@ -6,7 +6,8 @@
 
         {% for article in articles %}
             <h1 class="title">
-                <a href="{{ article.path }}.html">{{ article.title }}</a>
+                <!-- Replaced '.html' with '/' -->
+                <a href="{{ article.path }}/">{{ article.title }}</a>
             </h1>
             {{ article }}
             <br><hr><br>

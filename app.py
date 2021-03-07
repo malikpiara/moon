@@ -29,22 +29,22 @@ def index():
     return render_template('index.html', articles=latest[:10], title="Home")
 
 
-@app.route("/about.html")
+@app.route("/about/")
 def about():
     return render_template("about.html", title="About")
 
 
-@app.route("/contact.html")
+@app.route("/contact/")
 def contact():
     return render_template("contact.html", title="Contact")
 
 
-@app.route("/projects.html")
+@app.route("/projects/")
 def projects():
     return render_template("projects.html", title="Projects")
 
 
-@app.route('/<path:path>.html')
+@app.route('/<path:path>/')
 def page(path):
     page = pages.get_or_404(path)
     return render_template('page.html', page=page, title=page.meta['title'])
