@@ -59,8 +59,8 @@ def pagelist():
 
 
 if __name__ == '__main__':
-    # If the 'build' command is executed, freeze the app and create static files.
-    # Otherwise, run it locally.
+    # If the 'build' command is executed, freeze the app
+    # and create static files. Otherwise, run it locally.
     if len(sys.argv) > 1 and sys.argv[1] == 'build':
         freezer.freeze()
     else:
