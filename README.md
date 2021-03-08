@@ -1,6 +1,8 @@
-# flask-blog
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9eec41a4-da39-4b18-97c6-9d8903018701/deploy-status)](https://app.netlify.com/sites/eloquent-kirch-ab6e70/deploys)
 
-🐍 Static website generator built for my personal blog.
+# Moon(static)
+
+🌙 Static website generator built for my personal blog.
 
 ## Get Started
 
