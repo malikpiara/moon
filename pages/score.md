@@ -1,4 +1,4 @@
-title: It's hard to score when we don't have a goal
+title: Opportunities vs distractions
 date: 2021-03-11
 
 Sometimes we take on new projects and say 'yes' to opportunities to later realise we should have said 'no'. This happens frequently when we're young. We don't often have a clear sense of purpose or direction. And there is always something new.
