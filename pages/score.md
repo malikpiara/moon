@@ -9,8 +9,11 @@ We might one day realise, we're no closer to achieving what we really want in li
 
 It doesn't have to be this way. Every decision we make about how we spend our time counts. Every day, we have a chance to make little choices that can steer our life towards a better future. We can have more control of what lies ahead if today, we're brave enough to make a decision about what's important for us. — And about what is not.
 
+**Reflections:**
+
 What is one thing you really want to get out of life?
-Can you think about opportunities you pursued that get you no closer to achieving it?
+
+Can you think about opportunities you pursued recently that get you no closer to achieving it?
 
 \--
 
