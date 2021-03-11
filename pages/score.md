@@ -7,7 +7,7 @@ The thing about what we call opportunities is that they are only opportunities i
 
 Without a purpose, we don't know how to distinguish distractions from opportunities. We don't know when to say 'yes' and when to say 'no' when opportunities come knocking on our door. We live on autopilot, floating towards different directions as time goes by.
 
-We might one day realise, we're no closer to achieving what we really want in life than we were 10 years ago. We might, inadvertently, end up in places where we're doing something we don't want to be doing. Choose the wrong city to live in. Pick the wrong partner. Pursue the wrong career. — Our happiness is at stake.
+We might one day realise, we're no closer to achieving what we really want in life than we were 10 years ago. We might, inadvertently, end up in places where we're doing something we don't want to be doing. Choose the wrong city to live in. Pick the wrong partner. Pursue the wrong career. Because of this, we might never live up to our greatest potential.
 
 It doesn't have to be this way. Every decision we make about how we spend our time counts. Every day, we have a chance to make little choices that can steer our life towards a better future. We can have more control of what lies ahead if today, we're brave enough to make a decision about what's important for us. — And about what is not.
 
