@@ -1,6 +1,7 @@
 title: Copy the work of others
-date: 2020-03-31
+published: 2020-03-31
 tags:
+
 - general
 - test
 

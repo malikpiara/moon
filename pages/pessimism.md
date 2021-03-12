@@ -1,5 +1,5 @@
 title: On pessimism
-date: 2020-04-01
+published: 2020-04-01
 category: general
 
 Optimism is the tragedy of the 21st century. Despite what the popular opinion may be, I have found that, adopting it as frame of mind, can often promote short-sightedness and wishful-thinking. When life doesn’t go as planned, we suffer unproportionally. — This is especially true when the stakes are high. A pessimistic approach towards global warming is often also the most realistic.

@@ -1,5 +1,5 @@
 title: Owning your platform
-date: 2021-01-31
+published: 2021-01-31
 
 Whether Donald Trump’s Facebook ban and subsequent bans by Twitter, Reddit, Twitch, Shopify, and Snapchat were the right decision, they certainly opened a precedent that puts a free and open internet at risk. Following the crisis at the Capitol, Parler, an app used by far-right extremists was suspended by both Google and Apple’s app stores and Amazon even stopped providing Parler with their cloud services.
 

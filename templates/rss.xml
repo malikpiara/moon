@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Malik's Blog</title>
+  <atom:link href="https://maliks.blog/rss.xml" rel="self" type="application/rss+xml" />
+  <link>https://maliks.blog</link>
+  <description>just some random thoughts published on the internet...</description>
+  <lastBuildDate>{{ build_date.strftime('%a, %d %b %Y %T') }} EST</lastBuildDate>
+  <language>en-US</language>
+  {% for article in articles %}
+  <item>
+  <title>{{ article.meta['title'] }}</title>
+  <link>https://maliks.blog/{{ article.path.split('/')[-1] }}.html</link>
+  <description>{{ article.meta['descr'] }}</description>
+  <pubDate>{{ article.meta['published'].strftime('%a, %d %b %Y %T') }} EST</pubDate>
+  </item>
+  {% endfor %}
+</channel>
+</rss>

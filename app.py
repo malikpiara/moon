@@ -2,6 +2,7 @@ import sys
 from flask import Flask, render_template, url_for
 from flask_flatpages import FlatPages
 from flask_frozen import Freezer
+from datetime import datetime
 
 DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
@@ -22,11 +23,20 @@ def index():
     # Articles are pages with a publication date.
     # I'm using a tuple instead of a list because they are faster
     # and safer because of their immutability.
-    articles = (page for page in pages if 'date' in page.meta)
+    articles = (page for page in pages if 'published' in page.meta)
     # Show the 10 most recent articles.
     # To order articles by most recent we use reverse=True.
-    latest = sorted(articles, reverse=True, key=lambda page: page.meta['date'])
+    latest = sorted(articles, reverse=True,
+                    key=lambda page: page.meta['published'])
     return render_template('index.html', articles=latest[:10], title="Home")
+
+
+@app.route('/rss.xml')
+def rss():
+    articles = (page for page in pages if 'published' in page.meta)
+    latest = sorted(
+        articles, key=lambda page: page.meta['published'], reverse=True)
+    return render_template('rss.xml', articles=latest, build_date=datetime.now())
 
 
 @app.route("/about/")
