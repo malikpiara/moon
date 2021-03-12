@@ -31,12 +31,12 @@ def index():
     return render_template('index.html', articles=latest[:10], title="Home")
 
 
-@app.route('/rss.xml')
+@app.route('/feed/')
 def rss():
     articles = (page for page in pages if 'published' in page.meta)
     latest = sorted(
         articles, key=lambda page: page.meta['published'], reverse=True)
-    return render_template('rss.xml', articles=latest, build_date=datetime.now())
+    return render_template('feed.xml', articles=latest, build_date=datetime.now())
 
 
 @app.route("/about/")

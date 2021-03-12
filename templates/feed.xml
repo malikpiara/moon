@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
   <title>Malik's Blog</title>
-  <atom:link href="https://maliks.blog/rss.xml" rel="self" type="application/rss+xml" />
+  <atom:link href="https://maliks.blog/feed/" rel="self" type="application/rss+xml" />
   <link>https://maliks.blog</link>
-  <description>just some random thoughts published on the internet...</description>
+  <description>Recent blog posts from Malik.</description>
   <lastBuildDate>{{ build_date.strftime('%a, %d %b %Y %T') }} +0000</lastBuildDate>
   <language>en-US</language>
   {% for article in articles %}
   <item>
   <title>{{ article.meta['title'] }}</title>
-  <link>https://maliks.blog/{{ article.path.split('/')[-1] }}.html</link>
+  <link>https://maliks.blog/{{ article.path.split('/')[-1] }}/</link>
   <description>{{ article.meta['description'] }}</description>
   <pubDate>{{ article.meta['published'].strftime('%a, %d %b %Y %T') }} +0000</pubDate>
   <content:encoded><![CDATA[
