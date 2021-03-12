@@ -13,7 +13,7 @@
   <link>https://maliks.blog/{{ article.path.split('/')[-1] }}.html</link>
   <description>{{ article.meta['description'] }}</description>
   <pubDate>{{ article.meta['published'].strftime('%a, %d %b %Y %T') }} +0000</pubDate>
-  <content:encoded>{{ article }}</content:encoded>
+  <content:encoded><![CDATA[{{ article }}]]></content:encoded>
   </item>
   {% endfor %}
 </channel>
