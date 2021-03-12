@@ -31,7 +31,7 @@ def index():
     return render_template('index.html', articles=latest[:10], title="Home")
 
 
-@app.route('/feed/')
+@app.route('/feed.xml')
 def rss():
     articles = (page for page in pages if 'published' in page.meta)
     latest = sorted(
