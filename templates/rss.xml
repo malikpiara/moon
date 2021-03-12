@@ -14,7 +14,7 @@
   <description>{{ article.meta['description'] }}</description>
   <pubDate>{{ article.meta['published'].strftime('%a, %d %b %Y %T') }} +0000</pubDate>
   <content:encoded><![CDATA[
-  {{ article }}
+ test
   ]]></content:encoded>
   </item>
   {% endfor %}
