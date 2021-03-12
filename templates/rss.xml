@@ -5,14 +5,14 @@
   <atom:link href="https://maliks.blog/rss.xml" rel="self" type="application/rss+xml" />
   <link>https://maliks.blog</link>
   <description>just some random thoughts published on the internet...</description>
-  <lastBuildDate>{{ build_date.strftime('%a, %d %b %Y %T') }} EST</lastBuildDate>
+  <lastBuildDate>{{ build_date.strftime('%a, %d %b %Y %T') }} +0000</lastBuildDate>
   <language>en-US</language>
   {% for article in articles %}
   <item>
   <title>{{ article.meta['title'] }}</title>
   <link>https://maliks.blog/{{ article.path.split('/')[-1] }}.html</link>
   <description>{{ article.meta['descr'] }}</description>
-  <pubDate>{{ article.meta['published'].strftime('%a, %d %b %Y %T') }} EST</pubDate>
+  <pubDate>{{ article.meta['published'].strftime('%a, %d %b %Y %T') }} +0000</pubDate>
   </item>
   {% endfor %}
 </channel>
