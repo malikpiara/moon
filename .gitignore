@@ -1,3 +1,5 @@
 venv/
 *pycache*
 .DS_Store
+.vscode
+build/

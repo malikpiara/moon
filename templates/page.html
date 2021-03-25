@@ -2,10 +2,12 @@
 
 {% block body %}
 
-<div class="container animate__animated animate__fadeIn">
-<h1 class="title"> {{ page.title }} </h1>
-<small>Published on {{ page.published.strftime('%d %B, %Y') }}</small>
-<br><br>
+<article class="container animate__animated animate__fadeIn">
+    <header>
+        <h1 class="title"> {{ page.title }} </h1>
+        <small>Published on {{ page.published.strftime('%d %B, %Y') }}</small>
+        <br><br>
+    </header>
 <!-- safe is making Flask ignore the html tags -->
 {{ page.html|safe }}
 <br>
@@ -18,5 +20,5 @@
     <small>By providing your email you agree with my privacy policy. No spam. Ever.</small>
 </div>
 <br>
-</div>
+</article>
 {% endblock %}

@@ -1,9 +1,6 @@
 title: Copy the work of others
 published: 2020-03-31
-tags:
-
-- general
-- test
+category: general, test
 
 Many people celebrate the work of Pablo Picasso, but often overlook the process that contributed to make him the genius we all know and appreciate today.
 

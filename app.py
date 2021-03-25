@@ -17,18 +17,11 @@ freezer = Freezer(app)
 
 
 @app.route('/')
-# Used a lambda function. Still don't know they work very well
-# but followed the Flask flatpages documentation.
 def index():
-    # Articles are pages with a publication date.
-    # I'm using a tuple instead of a list because they are faster
-    # and safer because of their immutability.
     articles = (page for page in pages if 'published' in page.meta)
-    # Show the 10 most recent articles.
-    # To order articles by most recent we use reverse=True.
-    latest = sorted(articles, reverse=True,
-                    key=lambda page: page.meta['published'])
-    return render_template('index.html', articles=latest[:10], title="Home")
+    latest = sorted(
+        articles, key=lambda page: page.meta['published'], reverse=True)
+    return render_template('index.html', articles=latest[:12], title="Home")
 
 
 @app.route('/feed.xml')
@@ -36,7 +29,8 @@ def rss():
     articles = (page for page in pages if 'published' in page.meta)
     latest = sorted(
         articles, key=lambda page: page.meta['published'], reverse=True)
-    return render_template('feed.xml', articles=latest, build_date=datetime.now())
+    return render_template('feed.xml', articles=latest,
+                           build_date=datetime.now())
 
 
 @app.route("/about/")

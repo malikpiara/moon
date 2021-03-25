@@ -2,16 +2,16 @@
 
 {% block body %}
 
-    <div class="container animate__animated animate__fadeIn">
+    <section class="container animate__animated animate__fadeIn">
 
         {% for article in articles %}
             <h1 class="title">
-                <!-- Replaced '.html' with '/' -->
+                <!-- Replaced .html with '/' -->
                 <a href="{{ article.path }}/">{{ article.title }}</a>
             </h1>
-            {{ article }}
+                {{ article }}
             <br><hr><br>
         
         {% endfor %}
-    </div>
+        </section>
 {% endblock %}
