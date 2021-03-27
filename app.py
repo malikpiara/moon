@@ -48,6 +48,11 @@ def projects():
     return render_template("projects.html", title="Projects")
 
 
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template("404.html", title="Not Found"), 404
+
+
 @app.route('/<path:path>/')
 def page(path):
     page = pages.get_or_404(path)

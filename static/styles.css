@@ -10,6 +10,34 @@
   --text-dark: #ffffff;
   --sub-dark: #192734;
 }
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  box-sizing: border-box;
+  font-family: "Source Serif Pro", Georgia, Montserrat, sans-serif;
+  letter-spacing: 0.1px;
+  line-height: 1.55;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: var(--text-color);
+  background-color: var(--body-bg);
+  transition: 0.5s ease-out;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a,
+a:hover,
+.link,
+.link:hover {
+  color: inherit;
+  border-bottom: 2px dotted;
+  padding-bottom: 2px;
+  transition: 0.5s;
+}
 #sub {
   background-color: #774c2814;
   padding: 30px;
@@ -27,19 +55,6 @@
 }
 h5 {
   font-weight: 600;
-}
-body {
-  font-family: "Source Serif Pro", Georgia, Montserrat, sans-serif;
-  letter-spacing: 0.1px;
-  line-height: 1.55;
-  font-weight: 500;
-  font-size: 1.3rem;
-  color: var(--text-color);
-  background-color: var(--body-bg);
-  transition: 0.5s ease-out;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 embed,
 img,
@@ -67,6 +82,7 @@ a:hover {
   transition: 0.5s ease-in-out;
   padding: 10px;
   text-decoration: none;
+  border-bottom: none;
 }
 #navigation a:hover,
 .active {
@@ -93,6 +109,7 @@ a:hover {
 .site-title a {
   font-family: Montserrat, sans-serif;
   text-decoration: none;
+  border-bottom: none;
   color: var(--title-color);
   padding: 10px;
   transition: 0.5s ease-in-out;
@@ -112,6 +129,7 @@ a:hover {
   margin-right: -5px;
 }
 .profile-photo {
+  max-width: 100%;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -121,6 +139,10 @@ a:hover {
   color: var(--title-color);
   font-weight: 700;
   font-family: Georgia, times;
+}
+.title a {
+  text-decoration: none;
+  border-bottom: none;
 }
 .title a:hover {
   text-decoration: underline;
@@ -197,13 +219,7 @@ footer {
   font-size: 13px;
   font-family: Montserrat, sans-serif;
 }
-.link,
-.link:hover {
-  color: inherit;
-  border-bottom: 2px dotted;
-  padding-bottom: 2px;
-  transition: 0.5s;
-}
+
 ::selection {
   background-color: var(--highlight);
 }
