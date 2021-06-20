@@ -47,6 +47,9 @@ def contact():
 def projects():
     return render_template("projects.html", title="Projects")
 
+# This doesn't work when I make my website static.
+# I probably have to create an app route.
+
 
 @app.errorhandler(404)
 def page_not_found(e):
