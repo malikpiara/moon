@@ -1,5 +1,5 @@
 title: Requirements
-published: 2021-08-30
+published: 2021-09-30
 
 The idea that someone should have to meet requirements like a certain age or height. Or belong to a certain circle to become a suitable partner might not be serving us.
 
