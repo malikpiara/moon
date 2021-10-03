@@ -5,7 +5,7 @@ To which degree are we letting our fears and insecurities control how we perceiv
 
 Are we letting particular negative experiences dictate how we experience group interactions? Or public speaking opportunities?
 
-Are we being held back by the fact that someone made us feel bad and inadequate for standing out and being different, while growing up?
+Are we being held back by the fact that someone made us feel bad and inadequate for standing out and being different while growing up?
 
 Most people we pass through don't care enough about us to give us much thought. Or to form an opinion. They might still carry their convictions and their world view. But like us, they are usually more concerned with how others might be perceiving them.
 
