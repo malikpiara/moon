@@ -26,26 +26,29 @@
 <body>
 
   <header id="main">
-    <div class="container">
-        <a href="{{ url_for('index') }}">    
-            <img class="profile-photo" alt="profile picture" src="https://pbs.twimg.com/profile_images/1411884304389611522/O69kEnjh_400x400.jpg">
-        </a>
-        <h1 class="site-title">
-            <a href="/" title="Malik's Blog">🌙&nbsp;Malik's Blog</a>
-        </h1>
-        <ul id="navigation">
-            <li><a href="{{ url_for('index') }}">Articles</a></li>
-            <li><a href="{{ url_for('about') }}">About me</a></li>
-            <li><a href="{{ url_for('projects') }}">Projects</a></li>
-            <li><a href="{{ url_for('contact') }}">Get in touch</a></li>
-        </ul>
+    <div class="container grid-header">
+        <div class="first-row-container-header">   
+            <div>
+                <h1 class="site-title">
+                    <a href="/" title="Malik's Blog">🌙&nbsp;Moonwith</a>
+                </h1>
+                <ul id="navigation">
+                    <li><a href="{{ url_for('index') }}">Articles</a></li>
+                    <li><a href="{{ url_for('about') }}">About me</a></li>
+                    <li><a href="{{ url_for('projects') }}">Projects</a></li>
+                    <li><a href="{{ url_for('contact') }}">Get in touch</a></li>
+                </ul>
+            </div> 
+                
+                <img class="profile-photo" alt="profile picture" src="https://en.gravatar.com/userimage/197961269/b479e947d5be9a9106fcc9855bc6c5b6?size=200">
+        </div>
     </div>
 </header>
 
 {% block body %}
 {% endblock %}
 
-<footer>Built and designed by Malik Piara.</footer>
+<footer>Only you know who you can be.</footer>
 
 <script>
 

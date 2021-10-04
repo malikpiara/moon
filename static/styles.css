@@ -29,8 +29,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-a,
-a:hover,
+
 .link,
 .link:hover {
   color: inherit;
@@ -76,6 +75,12 @@ a:hover {
   transition-duration: 0.5s;
   text-decoration: none;
 }
+#navigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+}
 #navigation a {
   color: var(--text-color);
   font-size: 15px;
@@ -96,6 +101,14 @@ a:hover {
   margin: 0 auto;
   position: relative;
 }
+.grid-header {
+  display: grid;
+}
+.first-row-container-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .site-title {
   letter-spacing: 0.8px;
   margin: 0;
@@ -103,7 +116,6 @@ a:hover {
   margin-bottom: 28px;
   font-size: 1.5rem;
   font-weight: 800;
-  float: left;
   width: 80%;
 }
 .site-title a {
@@ -121,8 +133,9 @@ a:hover {
 #navigation {
   padding: 0;
   list-style-type: none;
-  font-weight: 500;
+  font-weight: 600;
   font-family: Montserrat;
+  text-decoration: none;
 }
 #navigation li {
   display: inline-block;
@@ -130,10 +143,9 @@ a:hover {
 }
 .profile-photo {
   max-width: 100%;
-  width: 100px;
-  height: 100px;
+  width: 85px;
+  height: 85px;
   border-radius: 50%;
-  float: right;
 }
 .title {
   color: var(--title-color);
@@ -214,7 +226,7 @@ button:focus {
   font-size: 1.1rem;
 }
 footer {
-  padding-bottom: 40px;
+  padding: 20px;
   text-align: center;
   font-size: 13px;
   font-family: Montserrat, sans-serif;
