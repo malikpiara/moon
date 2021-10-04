@@ -40,8 +40,7 @@ body {
 #sub {
   background-color: #774c2814;
   padding: 30px;
-  border-radius: 10px;
-  border: 0.1px solid #774c2830;
+  border-radius: 15px;
 }
 #sub > * {
   margin-bottom: 15px;
@@ -275,7 +274,7 @@ footer {
   #sub {
     background-color: var(--sub-dark);
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 15px;
     border: none;
   }
   #email {
