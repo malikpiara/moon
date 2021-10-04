@@ -1,11 +1,11 @@
 :root {
-  --text-color: #52341bef;
-  --body-bg: #f9e3de;
+  --text-color: #154422;
+  --body-bg: #fff6e7;
   --highlight: #774c281f;
-  --title-color: #613b1b;
+  --title-color: #154422;
   --button-text: #ffffff;
   --button-bg: #774c2810;
-  --primary: #633b1b;
+  --primary: #154422;
   --highlight-dark: #28a79d33;
   --text-dark: #ffffff;
   --sub-dark: #192734;
@@ -114,8 +114,6 @@ a:hover {
   margin-top: 10px;
   margin-bottom: 28px;
   font-size: 1.5rem;
-  font-weight: 800;
-  width: 80%;
 }
 .site-title a {
   font-family: Montserrat, sans-serif;
@@ -124,6 +122,7 @@ a:hover {
   color: var(--title-color);
   padding: 10px;
   transition: 0.5s ease-in-out;
+  font-weight: 900;
 }
 .site-title a:hover {
   background-color: var(--highlight);
@@ -138,7 +137,7 @@ a:hover {
 }
 #navigation li {
   display: inline-block;
-  margin-right: -5px;
+  margin-right: 3px;
 }
 .profile-photo {
   max-width: 100%;
@@ -163,6 +162,9 @@ a:hover {
   align-items: center;
   justify-content: center;
   height: 100%;
+}
+h1 {
+  font-size: 2.6rem;
 }
 h2 {
   font-size: 1.5rem;
@@ -228,6 +230,7 @@ footer {
   padding: 20px;
   text-align: center;
   font-size: 13px;
+  font-weight: 900;
   font-family: Montserrat, sans-serif;
 }
 
@@ -238,6 +241,9 @@ footer {
   --animate-duration: 1s;
 }
 @media (max-width: 600px) {
+  h1 {
+    font-size: 2.4rem;
+  }
   header {
     margin-bottom: -20px;
     padding: 10px 0;
@@ -263,6 +269,7 @@ footer {
     color: var(--text-dark);
   }
   #navigation a:hover,
+  .site-title a:hover,
   .active,
   ::selection {
     background-color: var(--highlight-dark);
