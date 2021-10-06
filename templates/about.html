@@ -2,18 +2,22 @@
 
 {% block body %}
 
-        <main class="container animate__animated animate__fadeIn">
-            <h1 class="title">About me</h1>
-            <br>
-            <img alt="Malik Piara" src="{{url_for('static', filename='malik.jpg')}}">
-            <br><br>
-            <p>Talent is distributed globally but opportunities aren't. I want to change that. My name is Malik and I dream and fight for a world where anyone can have the freedom to decide who they want to be and what they want to pursue.</p>
-            <p>As of October 2021, I'm currently focused on learning more about Climate Science and Social Psychology. I'm also borrowing ideas and mental models from philosophy to apply them in decision making. Will be graduating from CODE University in 1 year.</p>
-            <br>
-            <h2 class="title">My Values (TODO)</h2>
-            <p>I care about making others feel like they belong.</p>
-            <p>I believe curation is the key to better products and companies.</p>
-            <br><hr>
-        </main>
+        <main class="new_container animate__animated animate__fadeIn">
+            <div class="main_section_grid"></div>
+                <div class="flex_container">
+                    <div class="text_flex_container">
+                        <h1 class="title2">Talent is distributed globally but opportunities aren't. — I want to help change that.</h1>
+                        <p>My name is Malik and I dream and fight for a world where anyone can have the freedom to decide who they want to be and what they want to pursue.</p>
+
+                        <p>Moonwith is my digital home. The place where I share my thoughts on personal growth, emotional intelligence and product management.</p>
+                        
+                        <p>As of October 2021, I'm focused on learning more about Climate Science and Social Psychology. And I'm borrowing ideas and mental models from Socrates and Aristotle to apply them in decision making. Planning to graduate <a class="link" href="https://code.berlin/" target="_blank">CODE University</a> in 1 year.</p>
+                    </div>
+                    <div class="image_flex_container">
+                        <img class="main_photo" alt="Malik Piara" src="{{url_for('static', filename='malik.jpg')}}">
+                    </div>
+                </div>
+            </div>
+            </main>
 
 {% endblock %}

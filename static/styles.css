@@ -62,7 +62,6 @@ video {
   max-width: 100%;
 }
 #main {
-  padding: 20px 0;
   margin: 15px auto;
 }
 a {
@@ -109,14 +108,14 @@ a:hover {
   justify-content: space-between;
 }
 .site-title {
+  font-family: "Source Serif Pro", Georgia, Montserrat, sans-serif;
   letter-spacing: 0.8px;
   margin: 0;
   margin-top: 10px;
   margin-bottom: 28px;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 .site-title a {
-  font-family: Montserrat, sans-serif;
   text-decoration: none;
   border-bottom: none;
   color: var(--title-color);
@@ -234,13 +233,79 @@ footer {
   font-family: Montserrat, sans-serif;
 }
 
+/* New About Page */
+
+.title2 {
+  font-family: "Source Serif Pro", Georgia, Montserrat, sans-serif;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.new_container {
+  max-width: 2020px;
+  padding: 20px 0px;
+  margin: 0 0 0 40px;
+  position: relative;
+}
+
+.main_section_grid {
+  display: grid;
+  /* grid-template-columns: 1fr 550px;
+  column-gap: 2em; */
+}
+
+.flex_container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2em;
+}
+
+.text_flex_container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 40%;
+}
+
+.image_flex_container {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 550px;
+}
+
+/* End of New About Page */
+
 ::selection {
   background-color: var(--highlight);
 }
 .animate__fadeIn {
   --animate-duration: 1s;
 }
+
+/* Different Screens */
+@media (max-width: 800px) {
+  .flex_container {
+    flex-direction: column-reverse;
+  }
+
+  .image_flex_container {
+    flex-basis: 0;
+    margin-bottom: 20px;
+  }
+
+  .new_container {
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+  }
+}
+
 @media (max-width: 600px) {
+  .first-row-container-header {
+    flex-direction: column-reverse;
+  }
+
   h1 {
     font-size: 2.4rem;
   }
