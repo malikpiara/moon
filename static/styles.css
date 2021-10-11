@@ -233,8 +233,8 @@ footer {
   font-family: Montserrat, sans-serif;
 }
 
-.mb15 {
-  margin-bottom: 15px;
+.mb25 {
+  margin-bottom: 25px;
 }
 
 /* New About Page */
@@ -247,13 +247,11 @@ footer {
 
 .new_container {
   max-width: 2020px;
-  padding: 0px 0px;
-  margin: 0 40px 0px 40px;
-  position: relative;
 }
 
-.main_section_grid {
-  display: grid;
+.main_section_grid,
+.wall-section {
+  padding: 0 40px 0px 40px;
 }
 
 .flex_container {
@@ -282,11 +280,15 @@ footer {
 
 .wall-section {
   margin-top: 20px;
+  padding-top: 40px;
+  background-color: #182013;
+  color: #f5f5dc;
 }
 
 .wall-feedback-wrapper {
   display: flex;
   column-gap: 2em;
+  margin-top: 30px;
 }
 
 .wall-feedback {
@@ -332,10 +334,9 @@ footer {
     right: 0;
   }
 
-  .new_container {
+  .main_section_grid,
+  .wall-section {
     padding: 20px;
-    margin: 0 auto;
-    position: relative;
   }
 
   .wall-feedback-wrapper {
