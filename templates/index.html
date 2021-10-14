@@ -5,12 +5,18 @@
     <main class="container animate__animated animate__fadeIn">
 
         {% for article in articles %}
-            <h1 class="title">
-                <!-- Replaced .html with '/' -->
-                <a href="{{ article.path }}/">{{ article.title }}</a>
-            </h1>
-                {{ article }}
-            <br><hr><br>
+        <div class="article">
+            <a href="{{ article.path }}/">
+                <h1 class="title">
+                    {{ article.title }}
+                </h1>
+                
+                {{ article.html[:350] |safe }}
+                <span>...</span>
+                <!-- <button type="button" class="show-more">Read more</button> -->
+            </a>
+        </div>
+        <br>
         
         {% endfor %}
         </main>

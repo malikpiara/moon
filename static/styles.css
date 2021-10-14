@@ -191,6 +191,9 @@ h2 {
   transition: 0.5s;
   outline: 0;
   font-size: 15px;
+  margin-top: 15px;
+  font-family: system-ui, -apple-system, segoe ui, Roboto, Helvetica, Arial,
+    sans-serif, apple color emoji, segoe ui emoji;
 }
 .show-more:hover {
   background-color: var(--highlight);
@@ -320,6 +323,18 @@ footer {
   --animate-duration: 1s;
 }
 
+/* New Homepage */
+.article {
+  border-radius: 10px;
+  padding: 10px;
+}
+.article:hover {
+  background-color: var(--highlight);
+  transition: 1s;
+}
+
+/* End of New Homepage */
+
 /* Different Screens */
 @media (max-width: 800px) {
   .flex_container {
@@ -342,6 +357,10 @@ footer {
 
   .wall-feedback-wrapper {
     flex-direction: column;
+  }
+
+  .article {
+    padding: 0px;
   }
 }
 

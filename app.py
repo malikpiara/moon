@@ -21,7 +21,7 @@ def index():
     articles = (page for page in pages if 'published' in page.meta)
     latest = sorted(
         articles, key=lambda page: page.meta['published'], reverse=True)
-    return render_template('index.html', articles=latest[:12], title="Home")
+    return render_template('index.html', articles=latest[:25], title="Moonwith")
 
 
 @app.route('/feed.xml')
