@@ -42,6 +42,9 @@ body {
   padding: 30px;
   border-radius: 15px;
 }
+#sub h5 {
+  font-weight: 900;
+}
 #sub > * {
   margin-bottom: 15px;
 }
@@ -327,10 +330,10 @@ footer {
 .article {
   border-radius: 10px;
   padding: 10px;
+  transition: 0.5s ease-out;
 }
 .article:hover {
   background-color: var(--highlight);
-  transition: 1s;
 }
 
 /* End of New Homepage */
