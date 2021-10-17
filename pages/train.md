@@ -1,4 +1,4 @@
-title: This train cannot be stopped.
+title: This train cannot be stopped
 published: 2021-10-17
 
 At some point in life, we may find ourselves fighting for a place few people ever seem to get to. A job at a remarkable place. A deal with a record label. Or a signing with a publishing house.
