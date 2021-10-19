@@ -7,6 +7,6 @@ The nature of most problems is akin to the cartoonist cliche of the snowball rol
 
 Avoiding tough conversations with the people we care about won't make the underlying, interpersonal problems disappear. Resentment tends to build up. And people who were once close to us eventually fade away from our life.
 
-Pretending a debt doesn't exist might give us temporary relief. But one bill left to pay can be relatively easy to tackle when compared to eight bills plus penalty fees, a debt collection and a damaged credit score.
+Pretending a debt doesn't exist might provide us with temporary relief. But one bill left to pay can be relatively easy to tackle when compared to eight bills plus penalty fees, a debt collection and a damaged credit score.
 
 To take care of ourselves and the people we love, we must cultivate courage to face our problems head on. To make addressing them directly and early on our priority. Before we run out of options.
