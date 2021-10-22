@@ -1,7 +1,7 @@
 title: Giants
 published: 2021-10-22
 
-The giants we learn about in school. The ones whose shoulders we stand on, where once small. Smaller, less experienced than us. They worried, many times, about crashing. Or about making fools out of themselves. They worried about dying alone.
+The giants we learn about in school. The ones whose shoulders we stand on, were once small. Smaller, less experienced than us. They worried, many times, about crashing. Or about making fools out of themselves. They worried about dying alone.
 
 It can be comforting to know we are all lost. Swirling around this blue planet, somehow, never feeling like we're good enough. Thankfully, it's not about whether we're good enough or not. — It's about who we want to be. Where we want to go. What we want to achieve. And we don't have to listen to the inner voice telling us we're not good enough. Because in the end, that doesn't matter. No one ever became president or hit a global record by accident.
 
