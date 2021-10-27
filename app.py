@@ -78,6 +78,11 @@ def pagelist():
         yield url_for('page', path=page.path)
 
 
+def taglist():
+    for article in pages:
+        yield url_for('page', path=article.path)
+
+
 if __name__ == '__main__':
     # If the 'build' command is executed, freeze the app
     # and create static files. Otherwise, run it locally.
