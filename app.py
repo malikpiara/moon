@@ -80,6 +80,7 @@ def pagelist():
     for page in pages:
         # yield is a keyword like return
         yield url_for('page', path=page.path)
+        yield url_for('tag', tag=tag)
 
 
 def taglist():
