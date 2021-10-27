@@ -29,6 +29,9 @@ def tag(tag):
     articles = [page for page in pages if tag in page.meta.get('tags', [])]
     latest = sorted(
         articles, key=lambda page: page.meta['published'], reverse=True)
+    for page in pages:
+        print(page.meta.get('tags', []))
+
     return render_template('tagged.html', articles=latest[:25], tag=tag, title="Tagged")
 
 
@@ -79,8 +82,8 @@ def pagelist():
 
 
 def taglist():
-    for article in pages:
-        yield url_for('tag', path=article.path)
+    for page in pages:
+        yield url_for('tag', tag=page.meta.get('tags', []))
 
 
 if __name__ == '__main__':
