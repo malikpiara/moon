@@ -24,6 +24,14 @@ def index():
     return render_template('index.html', articles=latest[:25], title="Moonwith")
 
 
+@app.route('/tag/<tag>/')
+def tag(tag):
+    articles = [page for page in pages if tag in page.meta.get('tags', [])]
+    latest = sorted(
+        articles, key=lambda page: page.meta['published'], reverse=True)
+    return render_template('index.html', articles=latest[:25], tag=tag, title="Tagged")
+
+
 @app.route('/feed.xml')
 def rss():
     articles = (page for page in pages if 'published' in page.meta)

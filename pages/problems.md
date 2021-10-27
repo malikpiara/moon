@@ -1,5 +1,6 @@
 title: Address problems early on, before they become too big
 published: 2021-10-19
+tags: [principles]
 
 Even though it might be tempting at times to run away from our problems, doing so won't make them go away.
 
