@@ -80,7 +80,7 @@ def pagelist():
 
 def taglist():
     for article in pages:
-        yield url_for('page', path=article.path)
+        yield url_for('tag', path=article.path)
 
 
 if __name__ == '__main__':
