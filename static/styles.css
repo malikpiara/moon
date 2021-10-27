@@ -30,6 +30,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 4em;
+}
+
 .link,
 .link:hover {
   color: inherit;
@@ -80,6 +86,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  gap: 5px;
   width: 100%;
 }
 #navigation a {
@@ -102,6 +109,12 @@ a:hover {
   margin: 0 auto;
   position: relative;
 }
+.new-home-container {
+  max-width: 1120px;
+  padding: 20px;
+  margin: 0 auto;
+  position: relative;
+}
 .grid-header {
   display: grid;
 }
@@ -115,7 +128,7 @@ a:hover {
   letter-spacing: 0.8px;
   margin: 0;
   margin-top: 10px;
-  margin-bottom: 28px;
+  margin-bottom: 14px;
   font-size: 1.8rem;
 }
 .site-title a {
@@ -139,7 +152,6 @@ a:hover {
 }
 #navigation li {
   display: inline-block;
-  margin-right: 3px;
 }
 .profile-photo {
   max-width: 100%;
@@ -336,10 +348,42 @@ footer {
   background-color: var(--highlight);
 }
 
+.sidebar {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 325px;
+}
+
+.sidebar-title {
+  font-size: 18px;
+  font-weight: 700;
+  display: block;
+  margin: 10px 0px;
+}
+
+.tag-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  background-color: var(--highlight);
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 6px 12px;
+  font-family: system-ui, -apple-system, segoe ui, Roboto, Helvetica, Arial,
+    sans-serif, apple color emoji, segoe ui emoji;
+  font-weight: 400;
+}
+
 /* End of New Homepage */
 
 /* Different Screens */
 @media (max-width: 800px) {
+  .sidebar {
+    display: none;
+  }
   .flex_container {
     flex-direction: column-reverse;
   }

@@ -1,5 +1,6 @@
 title: Giants
 published: 2021-10-22
+tags: [emotional intelligence, work, growth mindset]
 
 The giants we learn about in school. The ones whose shoulders we stand on, were once small. Smaller, less experienced than us. They worried, many times, about crashing. Or about making fools out of themselves. They worried about dying alone.
 

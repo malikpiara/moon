@@ -1,5 +1,6 @@
 title: Today won't happen again
 published: 2020-03-31
+tags: [emotional intelligence]
 
 It’s easy to overlook the present, when we are too focused on anticipating what’s coming. On chasing goals. Painting dreams.
 

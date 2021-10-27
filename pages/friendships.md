@@ -1,5 +1,6 @@
 title: Letting friendships go
 published: 2021-10-02
+tags: [emotional intelligence, relationships]
 
 Sometimes we hold on to friendships that are no longer working. We hold on to that friend who was there for our sweet sixteen. We hold on to the group we formed in college, when we were still figuring out what we wanted. We hold on to people who have been in our lives for as long as we can remember. Even when the only things connecting us are our memory and a sense of obligation.
 

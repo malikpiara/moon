@@ -1,5 +1,6 @@
 title: Unrequited love
 published: 2021-10-21
+tags: [emotional intelligence]
 
 At times, we might feel a certain inability to move on from someone for whom we have deep feelings for. Someone who won't like us back despite our valiant efforts and good charms.
 

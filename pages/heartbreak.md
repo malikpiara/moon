@@ -1,5 +1,6 @@
 title: Heartbreak
 published: 2021-10-23
+tags: [emotional intelligence, relationships]
 
 Heartbreak is inevitable. Anyone capable of love goes through one at some point in their life. We cannot avoid wounds and bruises but we might be able to reframe them.
 

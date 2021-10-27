@@ -1,5 +1,6 @@
 title: Roads worth waiting for
 published: 2021-10-13
+tags: [emotional intelligence]
 
 Sometimes we're headed towards a dead end. And we keep on driving.
 

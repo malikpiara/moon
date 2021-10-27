@@ -1,6 +1,6 @@
 title: Opportunities vs distractions
 published: 2021-03-11
-description: The thing about what we call opportunities is that they are only opportunities in light of what we're trying to achieve. When they are not aligned with our goals, they become distractions.
+tags: [work]
 
 Sometimes we take on new projects and say 'yes' to opportunities to later realise we should have said 'no'. This happens frequently when we're young. We don't often have a clear sense of purpose or direction. And there is always something new.
 

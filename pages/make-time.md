@@ -1,5 +1,6 @@
 title: Make time
 published: 2021-02-08
+tags: [relationships]
 
 As we go through life, we find ourselves in different places. Different chapters. This often implies loosening our connection with friends we used to spend a lot of time with. Weeks, months and years go by. Work gets in the way. We get busy and without meaning to, relationships slowly fade away.
 

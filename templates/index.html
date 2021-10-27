@@ -2,24 +2,50 @@
 
 {% block body %}
 
-    <main class="container animate__animated animate__fadeIn">
-        
-        <!-- <a href="{{ url_for('tag', tag='principles') }}">Principles</a> -->
-
-        {% for article in articles %}
-        <div class="article">
-            <a href="/{{ article.path }}/">
-                <h1 class="title">
-                    {{ article.title }}
-                </h1>
+    <main class="new-home-container animate__animated animate__fadeIn">
+        <div class="flex-container">
+            <div>
+                {% for article in articles %}
+                <div class="article">
+                    <a href="/{{ article.path }}/">
+                        <h1 class="title">
+                            {{ article.title }}
+                        </h1>
+                        
+                        {{ article.html[:350] |safe }}
+                        <span>...</span>
+                        <!-- <button type="button" class="show-more">Read more</button> -->
+                    </a>
+                </div>
+                <br>
                 
-                {{ article.html[:350] |safe }}
-                <span>...</span>
-                <!-- <button type="button" class="show-more">Read more</button> -->
-            </a>
+                {% endfor %}
+            </div>
+            <aside class="sidebar">
+                <span class="sidebar-title">Pick a topic</span>
+                <div class="tag-wrapper">
+                    <div>
+                        <a class="tag" href="{{ url_for('tag', tag='principles') }}">Principles</a>
+                    </div>
+    
+                    <div>
+                        <a class="tag" href="{{ url_for('tag', tag='emotional intelligence') }}">Emotional Intelligence</a>
+                    </div>
+                    
+                    <div>
+                        <a class="tag" href="{{ url_for('tag', tag='hackasundays') }}">Hackasundays</a>
+                    </div>
+
+                    <div>
+                        <a class="tag" href="{{ url_for('tag', tag='work') }}">Work</a>
+                    </div>
+
+                    <div>
+                        <a class="tag" href="{{ url_for('tag', tag='relationships') }}">Relationships</a>
+                    </div>
+                    
+                </div>
+            </aside>
         </div>
-        <br>
-        
-        {% endfor %}
         </main>
 {% endblock %}

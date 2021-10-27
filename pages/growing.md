@@ -1,6 +1,6 @@
 title: On feeling like giving up
 published: 2020-04-02
-category: general
+tags: [work, emotional intelligence]
 
 Next time you feel like giving up, realise that, this might be a good indication that you are out of your comfort zone. Do not let that stop you from moving.
 

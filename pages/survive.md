@@ -1,5 +1,6 @@
 title: We'll survive
 published: 2021-10-03
+tags: [emotional intelligence]
 
 To which degree are we letting our fears and insecurities control how we perceive reality and the world around us?
 

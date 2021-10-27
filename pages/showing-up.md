@@ -1,5 +1,6 @@
 title: Showing up
 published: 2021-10-02
+tags: [work]
 
 Building up a new skill or working towards a new goal can be frustrating. Especially when we're just getting started. Our output is often below the level we're acquainted with. And feeling our work is below average can be frightening.
 

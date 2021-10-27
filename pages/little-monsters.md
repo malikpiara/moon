@@ -1,5 +1,6 @@
 title: Tiny little monsters
 published: 2021-10-20
+tags: [emotional intelligence]
 
 Every now and then, we find tiny little monsters lurking around the corner. Mental setbacks, fear, a lingering feeling of anxiety we can't seem to fully comprehend.
 

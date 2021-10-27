@@ -1,5 +1,6 @@
 title: Take a chance
 published: 2021-06-20
+tags: [emotional intelligence, relationships]
 
 Sometimes we are afraid of giving ourselves to others. Lessons learned from the past. Perhaps, from a time when a friend or loved one behaved in a way that betrayed our values or expectations. Perhaps, when we were kids. People often fail to meet those expectations. They are self-absorbed, unaware. We're guilty too. I imagine it to be part of our animalistic nature.
 

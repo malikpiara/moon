@@ -1,8 +1,8 @@
 title: On pessimism
 published: 2020-04-01
-category: general
+tags: [principles]
 
-Optimism is the tragedy of the 21st century. Despite what the popular opinion may be, I have found that, adopting it as frame of mind, can often promote short-sightedness and wishful-thinking. When life doesn’t go as planned, we suffer unproportionally. — This is especially true when the stakes are high. A pessimistic approach towards global warming is often also the most realistic.
+Positivity is the tragedy of the 21st century. Despite what the popular opinion may be, I have found that, adopting it as frame of mind, can often promote short-sightedness and wishful-thinking. When life doesn’t go as planned, we suffer unproportionally. — This is especially true when the stakes are high. A pessimistic approach towards global warming is often also the most realistic.
 
 Unlike optimism, a pessimist outlook provides us with information we can use to grow. This makes it more useful to have as a frame of mind. Having an awareness about what might go wrong, can make you better equipped to deal with whatever life might throw at you.
 
