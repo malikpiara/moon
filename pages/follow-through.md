@@ -1,6 +1,6 @@
 title: Follow through
 published: 2021-01-05
-tags: [principles]
+tags: principles
 
 Integrity is doing what we say we will do. Even when it hurts us. Especially when it hurts us. This requires a sharp and tuned degree of consistency and self-awareness that takes time to grow.
 

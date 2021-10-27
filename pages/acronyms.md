@@ -1,6 +1,6 @@
 title: Don't use acronyms
 published: 2021-02-17
-tags: [principles]
+tags: principles
 
 The goal of communication is to convey information. To create an understanding. Yet, we often choose to use words that create obstacles for those we’re trying to reach.
 
