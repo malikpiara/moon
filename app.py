@@ -29,9 +29,11 @@ def tag(tag):
     articles = [page for page in pages if tag in page.meta.get('tags', [])]
     latest = sorted(
         articles, key=lambda page: page.meta['published'], reverse=True)
-    for page in pages:
+    # The comment below is a test to help me understand how the urls for
+    # the pages are being generated.
+    """ for page in pages:
         print(url_for('tag', tag=tag))
-        print(url_for('page', path=page.path))
+        print(url_for('page', path=page.path)) """
 
     return render_template('tagged.html', articles=latest[:25], tag=tag, title="Tagged")
 
@@ -80,12 +82,15 @@ def pagelist():
     for page in pages:
         # yield is a keyword like return
         yield url_for('page', path=page.path)
+        # This doesn't seem to be giving me what I need
         yield url_for('tag', tag=tag)
 
 
+# Attempt at finding every tag page and freezing it.
+""" 
 def taglist():
     for page in pages:
-        yield url_for('tag', tag=tag)
+        yield url_for('tag', tag=tag) """
 
 
 if __name__ == '__main__':
