@@ -365,7 +365,7 @@ footer {
 }
 
 .sidebar-title {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   display: block;
   margin: 15px 0px;
@@ -374,14 +374,15 @@ footer {
 .tag-wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  row-gap: 15px;
+  column-gap: 8px;
 }
 
 .tag {
   background-color: var(--highlight);
   border-radius: 20px;
   font-size: 16px;
-  padding: 6px 12px;
+  padding: 8px 14px;
   font-family: system-ui, -apple-system, segoe ui, Roboto, Helvetica, Arial,
     sans-serif, apple color emoji, segoe ui emoji;
   font-weight: 400;
