@@ -172,7 +172,6 @@ a:hover {
   text-decoration: underline;
 }
 .home-title {
-  color: var(--title-color);
   font-weight: 700;
   font-family: Georgia, times;
   font-size: 2.4rem;
@@ -252,9 +251,14 @@ button:focus {
 footer {
   padding: 20px;
   text-align: center;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 900;
-  font-family: Montserrat, sans-serif;
+  font-family: system-ui, -apple-system, segoe ui, Roboto, Helvetica, Arial,
+    sans-serif, apple color emoji, segoe ui emoji;
+  background-color: #141414;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .mb25 {
