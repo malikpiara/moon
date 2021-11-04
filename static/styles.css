@@ -403,11 +403,9 @@ footer {
   z-index: 1;
 }
 
-#navbar-mobile a {
-  float: left;
+#navbar-mobile {
   font-size: 15px;
   transition: 0.5s ease-in-out;
-  padding: 10px;
   text-decoration: none;
   border-bottom: none;
   font-weight: 600;
@@ -415,8 +413,8 @@ footer {
 }
 
 #profile-photo-mobile {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
 }
 
 /* Different Screens */
@@ -457,7 +455,10 @@ footer {
   }
 
   h1 {
-    font-size: 2.4rem;
+    font-size: 2.3rem;
+  }
+  .home-title {
+    font-size: 2rem;
   }
   header {
     margin-bottom: -20px;
@@ -477,8 +478,13 @@ footer {
     display: none;
   }
 
+  .new-home-container {
+    padding: 30px 20px;
+  }
+
   #navbar-mobile {
     display: flex;
+    flex-direction: column;
   }
 }
 
