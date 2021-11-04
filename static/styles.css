@@ -1,6 +1,7 @@
 :root {
   --text-color: #154422;
   --body-bg: #fff0e5;
+  --body-bg-dark: #15202b;
   --highlight: #774c281f;
   --title-color: #154422;
   --button-text: #ffffff;
@@ -390,6 +391,34 @@ footer {
 
 /* End of New Homepage */
 
+/* New Mobile Navbar */
+#navbar-mobile {
+  display: none;
+  overflow: hidden;
+  background-color: var(--body-bg);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 0;
+  z-index: 1;
+}
+
+#navbar-mobile a {
+  float: left;
+  font-size: 15px;
+  transition: 0.5s ease-in-out;
+  padding: 10px;
+  text-decoration: none;
+  border-bottom: none;
+  font-weight: 600;
+  font-family: Montserrat;
+}
+
+#profile-photo-mobile {
+  width: 40px;
+  height: 40px;
+}
+
 /* Different Screens */
 @media (max-width: 800px) {
   .sidebar {
@@ -427,6 +456,10 @@ footer {
     flex-direction: column-reverse;
   }
 
+  .new-home-container {
+    padding: 10px 0;
+  }
+
   h1 {
     font-size: 2.4rem;
   }
@@ -443,10 +476,20 @@ footer {
   body {
     font-size: 1.2rem;
   }
+
+  .first-row-container-header {
+    display: none;
+  }
+
+  #navbar-mobile {
+    display: flex;
+    margin-left: 20px;
+  }
 }
+
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #15202b;
+    background-color: var(--body-bg-dark);
     color: var(--text-dark);
   }
   #navigation a,
@@ -473,5 +516,8 @@ footer {
   #email {
     background-color: #253341;
     border: none;
+  }
+  #navbar-mobile {
+    background-color: var(--body-bg-dark);
   }
 }

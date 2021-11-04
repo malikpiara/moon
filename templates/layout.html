@@ -26,7 +26,23 @@
 <body>
 
   <header id="main">
+      
     <div class="new-home-container grid-header">
+
+        <div id="navbar-mobile">
+            <div>
+                <img class="profile-photo" id="profile-photo-mobile" alt="Malik Piara" src="{{url_for('static', filename='malik-mini.jpeg')}}">
+            </div>
+
+            <div>
+            <a href="{{ url_for('index') }}">Articles</a>
+            <a href="{{ url_for('about') }}">About</a>
+            <a href="{{ url_for('projects') }}">Projects</a>
+            <a href="{{ url_for('contact') }}">Get in touch</a>
+            </div>
+            
+          </div>
+
         <div class="first-row-container-header">   
             <div>
                 <h1 class="site-title">
