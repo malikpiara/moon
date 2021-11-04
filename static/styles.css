@@ -397,9 +397,9 @@ footer {
   overflow: hidden;
   background-color: var(--body-bg);
   position: fixed;
-  top: 0;
+  bottom: 0;
   width: 100%;
-  padding: 15px 0;
+  padding: 15px 20px;
   z-index: 1;
 }
 
@@ -474,12 +474,12 @@ footer {
     font-size: 1.2rem;
   }
 
-  .first-row-container-header {
+  /* .first-row-container-header {
     display: none;
-  }
+  } */
 
   .new-home-container {
-    padding: 30px 20px;
+    padding: 0px 20px;
   }
 
   #navbar-mobile {
