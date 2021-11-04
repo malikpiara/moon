@@ -456,10 +456,6 @@ footer {
     flex-direction: column-reverse;
   }
 
-  .new-home-container {
-    padding: 10px 0;
-  }
-
   h1 {
     font-size: 2.4rem;
   }
@@ -483,7 +479,6 @@ footer {
 
   #navbar-mobile {
     display: flex;
-    margin-left: 20px;
   }
 }
 
