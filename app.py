@@ -61,6 +61,11 @@ def contact():
 def projects():
     return render_template("projects.html", title="Projects")
 
+
+@app.route("/earnest-privacy/")
+def earnest_privacy():
+    return render_template("earnest-privacy.html", title="Earnest Cards Privacy Policy")
+
 # This doesn't work when I make my website static.
 # I probably have to create an app route.
 
