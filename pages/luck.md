@@ -22,7 +22,7 @@ Picture two cardboard boxes. One contains a single marble. The other has a handf
 
 Spending most of our days entangled in a work-home routine is akin to the first cardboard box. We have more to gain when we put ourselves out there. When we decide to leave our comfort zone.
 
-Looking at the future we cannot tell when life changing events will take place. A couple of years ago, I would not believe anyone if they told me I would be living in Berlin. Having that in mind, **we can put ourselves in situations that enable serendipity to take place by exposing ourselves to them**. Join communities. Read books. Let people know what you’re working on. Talk to strangers. Go to parties where you don't know most people. Send a letter to someone you admire. Install a dating app. Move to a city that has more things going on. Create your own luck.
+Looking at the future we cannot tell when life changing events will take place. A couple of years ago, I would not believe anyone if they told me I would be living in Berlin. Having that in mind, **we can put ourselves in situations that enable serendipity to take place**. Join communities. Read books. Let people know what you’re working on. Talk to strangers. Go to parties where you don't know most people. Send a letter to someone you admire. Install a dating app. Move to a city that has more things going on. Create your own luck.
 
 <table class="blogpost-table">
   <tr>
