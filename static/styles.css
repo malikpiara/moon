@@ -391,6 +391,19 @@ footer {
 
 /* End of New Homepage */
 
+/* Blog Table */
+.blogpost-table {
+  width: 100%;
+}
+
+.blogpost-table td {
+  padding: 5px 10px;
+}
+
+.blogpost-table tr:nth-child(even) {
+  background-color: #f3e3d6;
+}
+
 /* New Mobile Navbar */
 #navbar-mobile {
   display: none;
