@@ -73,4 +73,25 @@ Looking at the future we cannot tell when life changing events will take place. 
   <tr>
     <td>Start a <a class="link" href="https://moonwith.com/tag/hackasundays/" target="_blank">hacksunday</a> challange.</td>
   </tr>
+  <tr>
+    <td>Create and maintain a Twitter account.</td>
+  </tr>
+  <tr>
+    <td>Keep your direct/private messages open on social media.</td>
+  </tr>
+  <tr>
+    <td>Add a location to your Instagram posts.</td>
+  </tr>
+  <tr>
+    <td>Take public transports.</td>
+  </tr>
+  <tr>
+    <td>Use stickers on your laptop.</td>
+  </tr>
+  <tr>
+    <td>Take the most crowded path to work.</td>
+  </tr>
+  <tr>
+    <td>Move to a city that has more things going on in your industry.</td>
+  </tr>
 </table>
