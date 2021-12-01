@@ -1,8 +1,8 @@
 :root {
   --text-color: #154422;
-  --body-bg: #fff0e5;
+  --body-bg: #f9efe7;
   --body-bg-dark: #15202b;
-  --highlight: #774c281f;
+  --highlight: #774c2814;
   --title-color: #154422;
   --button-text: #ffffff;
   --button-bg: #774c2810;
@@ -18,10 +18,11 @@
 }
 body {
   box-sizing: border-box;
-  font-family: "Source Serif Pro", Georgia, Montserrat, sans-serif;
+  font-family: system-ui, -apple-system, segoe ui, Roboto, Helvetica, Arial,
+    sans-serif, apple color emoji, segoe ui emoji;
   letter-spacing: 0.1px;
   line-height: 1.55;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.3rem;
   color: var(--text-color);
   background-color: var(--body-bg);
@@ -163,7 +164,7 @@ a:hover {
 .title {
   color: var(--title-color);
   font-weight: 700;
-  font-family: Georgia, times;
+  font-family: "Source serif pro", Georgia, times;
 }
 .title a {
   text-decoration: none;
@@ -174,7 +175,7 @@ a:hover {
 }
 .home-title {
   font-weight: 700;
-  font-family: Georgia, times;
+  font-family: "Source Serif Pro", Georgia, times;
   font-size: 2.4rem;
 }
 #result {
@@ -253,7 +254,7 @@ footer {
   padding: 20px;
   text-align: center;
   font-size: 12px;
-  font-weight: 900;
+  font-weight: 700;
   font-family: system-ui, -apple-system, segoe ui, Roboto, Helvetica, Arial,
     sans-serif, apple color emoji, segoe ui emoji;
   background-color: #141414;
@@ -401,7 +402,7 @@ footer {
 }
 
 .blogpost-table tr:nth-child(even) {
-  background-color: #f3e3d6;
+  background-color: var(--highlight);
 }
 
 /* New Mobile Navbar */
