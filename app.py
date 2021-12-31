@@ -24,6 +24,23 @@ def index():
     return render_template('index.html', articles=latest[:25], title="Moonwith")
 
 
+@app.route('/new/')
+def new_home():
+    articles = (page for page in pages if 'published' in page.meta)
+    latest = sorted(
+        articles, key=lambda page: page.meta['published'], reverse=True)
+    return render_template('new_home.html', articles=latest[:25], title="Moonwith")
+
+
+@app.route('/new/<path:path>/')
+def new_page(path):
+    page = pages.get_or_404(path)
+    articles = (page for page in pages if 'published' in page.meta)
+    latest = sorted(
+        articles, key=lambda page: page.meta['published'], reverse=True)
+    return render_template('new_page.html', articles=latest[:25], page=page, title=page.meta['title'])
+
+
 @app.route('/tag/<tag>/')
 def tag(tag):
     articles = [page for page in pages if tag in page.meta.get('tags', [])]
@@ -87,6 +104,7 @@ def pagelist():
     for page in pages:
         # yield is a keyword like return
         yield url_for('page', path=page.path)
+        yield url_for('new_page', path=page.path)
         # This doesn't seem to be giving me what I need
         yield url_for('tag', tag=tag)
 

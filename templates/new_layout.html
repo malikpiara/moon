@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='bootstrap.min.css') }}">
+    <meta name="author" content="Malik Piara" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='moon.ico') }}">    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Source+Serif+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>{{ title + " | "}} Malik Piara</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EQJQ6PETV8"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-EQJQ6PETV8');
+    </script>
+</head>
+<body>
+
+{% block body %}
+{% endblock %}
+
+
+<script>
+
+jQuery(function($) {
+    var path = window.location.href;
+    // because the 'href' property of the DOM element is the absolute path
+    $('a').each(function() {
+        if (this.href === path) {
+            $(this).children().addClass('active');
+        }
+    });
+});
+
+</script>
+
+</body>
+</html>

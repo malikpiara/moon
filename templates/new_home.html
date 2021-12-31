@@ -1,0 +1,37 @@
+{% extends "new_layout.html" %}
+
+{% block body %}
+
+<div class="flex w-full">
+    <div class="relative flex-none w-full h-full max-h-screen min-h-screen overflow-y-auto xl:w-96 border-r border-gray">
+        <div class="sticky top-0 z-10 flex flex-col px-3 py-2 bg-beige bg-opacity-90 filter-blur">
+            <p class="text-sm font-bold">Blog</p>
+        </div>
+        <div class="p-3">
+    {% for article in articles %}
+    
+    <a class="flex py-2 px-3.5 text-sm" href="{{ url_for('new_page', path=article.path) }}">
+    <div class="relative flex flex-col article px-3">
+        
+            <div class="font-bold">
+                {{ article.title }}
+            </div>
+            
+            <div class="line-clamp-2">
+            {{ article.html[:100] |safe }}
+            </div>
+
+            {{article.published.strftime('%B %d, %Y')}}
+        
+    </div>
+    </a>
+    {% endfor %}
+    </div>
+</div>
+    <div class="flex w-full max-h-screen overflow-y-auto">
+        <div class="container animate__animated animate__fadeIn w-full max-w-3xl">
+            
+        </div>
+    </div>
+</div>
+{% endblock %}
