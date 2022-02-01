@@ -536,3 +536,22 @@ footer {
     background-color: var(--body-bg-dark);
   }
 }
+
+/* Wall of People */
+
+.people-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.person-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 250px;
+  background-color: var(--highlight);
+  padding: 20px;
+  border-radius: 8px;
+  font-weight: 500;
+}
