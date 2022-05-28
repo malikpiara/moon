@@ -2,9 +2,9 @@ title: Metamorphosis
 published: 2022-05-28
 tags: [principles]
 
-The mistakes we made and the deeds we accomplished yesterday are like blinkers. They prevent us from seeing sideways. They mute our life and keep us from reaching a deeper understanding of the world we live in.
+The mistakes we made and deeds we accomplished yesterday are like blinkers. They prevent us from seeing sideways. They mute our experience of life and keep us from reaching a deeper understanding of the world.
 
-There is a radiant, ecstatic, powerful version of ourselves lying somewhere. Untapped potential we may only harness when we learn to let go of the person, places and things that provide our sense of comfort and identity today.
+There are radiant, ecstatic, powerful version of ourselves lying somewhere. Untapped potential we may only harness when we learn to let go of the person, places and things that provide our sense of comfort and identity today.
 
 **a.** Build the habit of asking yourself: What if I’m wrong? What if what I believe in and the values I grew up with or currently hold are flawed?
 
@@ -14,4 +14,4 @@ There is a radiant, ecstatic, powerful version of ourselves lying somewhere. Unt
 
 ---
 
-This is a first, non-revised draft of 'Metamorphosis'. This essay is part of my Principles series: writings I plan to update and refine throughout the years and pass on to my kids. The edit history is publicly available [here](https://github.com/malikpiara/moon/blame/main/pages/metamorphosis.md).
+This essay is part of my Principles series. Writings I plan to update and refine throughout the years and pass on to my kids. The edit history is publicly available [here](https://github.com/malikpiara/moon/blame/main/pages/metamorphosis.md).
