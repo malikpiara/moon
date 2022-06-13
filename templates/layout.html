@@ -29,7 +29,7 @@
 
     <div id="navbar-mobile">
         <div style="display: flex; gap: 8px;">
-            <img class="profile-photo" id="profile-photo-mobile" alt="Malik Piara" src="{{url_for('static', filename='malik-mini.jpeg')}}">
+            <img class="profile-photo" id="profile-photo-mobile" alt="Malik Piara" src="{{url_for('static', filename='malik-mini.webp')}}">
         
             <h1 class="site-title">
                 <a href="/" title="Malik's Blog">Moonwith</a>
@@ -42,7 +42,7 @@
         flex-direction: row;
         flex-wrap: nowrap;
         gap: 20px; padding: 10px 0px; justify-content: space-between;">
-        <a href="{{ url_for('index') }}">Articles</a>
+        <a href="{{ url_for('index') }}">Essays</a>
         <a href="{{ url_for('about') }}">About</a>
         <a href="{{ url_for('projects') }}">Projects</a>
         <a href="{{ url_for('contact') }}">Newsletter</a>
@@ -53,19 +53,19 @@
     <div class="new-home-container grid-header">
 
         <div class="first-row-container-header">   
-            <div>
+            
                 <h1 class="site-title">
                     <a href="/" title="Malik's Blog">Moonwith</a>
                 </h1>
                 <ul id="navigation">
-                    <li><a href="{{ url_for('index') }}">Articles</a></li>
+                    <li><a href="{{ url_for('index') }}">Essays</a></li>
                     <li><a href="{{ url_for('about') }}">About</a></li>
                     <li><a href="{{ url_for('projects') }}">Projects</a></li>
                     <li><a href="{{ url_for('contact') }}">Get in touch</a></li>
                 </ul>
-            </div> 
+            
                 
-            <img class="profile-photo" alt="Malik Piara" src="{{url_for('static', filename='malik-mini.jpeg')}}">
+            <img class="profile-photo" alt="Malik Piara" src="{{url_for('static', filename='malik-mini.webp')}}">
         </div>
     </div>
 </header>
