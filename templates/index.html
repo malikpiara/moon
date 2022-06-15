@@ -4,7 +4,7 @@
 
     <main class="new-home-container animate__animated animate__fadeIn">
         <div class="flex-container">
-            <div>
+            <div class="article-container">
                 {% for article in articles %}
                 <div class="article">
                     <a href="/{{ article.path }}/">
@@ -30,10 +30,6 @@
     
                     <div>
                         <a class="tag" href="{{ url_for('tag', tag='emotional intelligence') }}">Emotional Intelligence</a>
-                    </div>
-                    
-                    <div>
-                        <a class="tag" href="{{ url_for('tag', tag='hackasundays') }}">Hackasundays</a>
                     </div>
 
                     <div>

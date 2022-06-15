@@ -10,6 +10,7 @@
   --highlight-dark: #28a79d33;
   --text-dark: #ffffff;
   --sub-dark: #192734;
+  --purple-title-dk: #352e8c;
 }
 *,
 *::before,
@@ -30,6 +31,20 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.green {
+  --body-bg: #F2F2E4;
+  --primary: #5abb71;
+  --title-color: #154422;
+  --highlight: rgba(90, 187, 113, 0.4);
+}
+
+.purple {
+  --body-bg: #e9e4f2;
+  --primary: #715abb;
+  --title-color: #152644;
+  --highlight: rgb(102 90 187 / 40%);
 }
 
 #main {
@@ -104,7 +119,7 @@ a:hover {
 }
 #navigation a:hover,
 .active {
-  background-color: var(--highlight);
+  background-color: #80808014;
   border-radius: 10px;
   text-decoration: none;
   color: var(--primary) !important;
@@ -148,7 +163,7 @@ a:hover {
   font-weight: 900;
 }
 .site-title a:hover {
-  background-color: var(--highlight);
+  background-color: #80808014;
   border-radius: 10px;
 }
 #navigation {
@@ -355,7 +370,7 @@ footer {
 /* End of New About Page */
 
 ::selection {
-  background-color: rgba(90, 187, 113, 0.4);
+  background-color: var(--highlight);
 }
 .animate__fadeIn {
   --animate-duration: 1s;
@@ -368,7 +383,7 @@ footer {
   transition: 0.5s ease-out;
 }
 .article:hover {
-  background-color: var(--highlight);
+  background-color: #80808014;
 }
 
 .sidebar {
@@ -443,6 +458,12 @@ footer {
 }
 
 /* Different Screens */
+@media (min-width: 800px) {
+  .article-container {
+    max-width: 60%;
+    margin-right: auto;
+  }
+}
 @media (max-width: 800px) {
   .sidebar {
     display: none;
