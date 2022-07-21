@@ -1,4 +1,4 @@
-title: What we don't share online
+title: The stories we don't tell
 published: 2022-07-21
 
 How can we connect when we're more concerned with looking good and honing a fake persona than we are with being authentic and generous?
