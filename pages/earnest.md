@@ -8,10 +8,8 @@ Because I don’t want to wait around to get picked, I decided I’m writing eve
 
 On the first Hackasunday, we worked on cards with questions for more meaningful conversations. You can use them as a way to get to know yourself better. Or to cultivate friendships.
 
-Because many people were interested in getting them, I decided it would make sense to release the app for both Android and iOS. If you'd like to give it a try, **[click here to download the alpha](https://expo.dev/@glenncoding/earnest-cards)** or drop me a message.
+Because many people were interested in getting them, I decided it would make sense to release the app for both Android and iOS. If you'd like to give it a try, **[click here to download the alpha]([https://expo.dev/@glenncoding/earnest-cards](https://upfra.me/earnest))** or drop me a message.
 
 [![alt](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe792336c-27de-49db-bc4d-83d6d4a5a209_1656x968.png)](https://expo.dev/@glenncoding/earnest-cards)
 
 <small>Earnest Cards. Also on Instagram with new questions every week at **[@earnestcards](https://www.instagram.com/earnestcards/)**.</small>
-
-This article will be updated in a substantial way throughout this month with more details on the app and about the process of building and launching a new product from scratch in ~7 hours. See you soon!
